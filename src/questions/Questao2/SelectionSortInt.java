@@ -1,4 +1,4 @@
-package Questao2;
+package questions.Questao2;
 
 public class SelectionSortInt {
     public static int[] selectionSortInt(int []vetor){

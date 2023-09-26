@@ -1,11 +1,7 @@
-package Questao2;
+package questions.Questao2;
 
-import static Questao2.SelectionSortInt.selectionSortInt;
-import static Questao2.MergeSort.mergeSort;
-import static Questao2.CountingSort.countingSort;
-
-import java.lang.Math;
-import java.sql.SQLOutput;
+import static questions.Questao2.MergeSort.mergeSort;
+import static sort.Counting.countingSort;
 
 public class Mediana {
     //Atributos

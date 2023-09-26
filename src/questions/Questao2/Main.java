@@ -1,8 +1,6 @@
-package Questao2;
+package questions.Questao2;
 
-import java.lang.Math;
-
-import static Questao2.Mediana.achaMediana;
+import static questions.Questao2.Mediana.achaMediana;
 
 public class Main {
     public static int[] geraVetor( int n ){

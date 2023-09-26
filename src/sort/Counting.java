@@ -1,9 +1,26 @@
-package Questao2;
+package sort;
 
-public class CountingSort {
-    public static int[] countingSort(int []arr)
-    {
-        int n = arr.length;
+import structs.Generics;
+
+public class Counting extends Sorter {
+
+    @Override
+    public void sort(Generics<?, ?>[] vector) {
+        this.vector_size = vector.length;
+        if ( vector[0].getValue() instanceof Integer ){
+
+        }
+    }
+
+    @Override
+    public void invertedSort(Generics<?, ?>[] vector) {
+        this.vector_size = vector.length;
+        if ( vector[0].getValue() instanceof Integer ){
+
+        }
+    }
+    public void counting( Generics<?, Integer >[] vector){
+        int n = vector.length;
 
         // The output character array that will have sorted
         // arr
@@ -17,7 +34,7 @@ public class CountingSort {
 
         // store count of each character
         for (int i = 0; i < n; ++i){
-            ++count[arr[i]];}
+            ++count[vector[i].getValue()];}
 
         // Change count[i] so that count[i] now contains
         // actual position of this character in output array
@@ -28,15 +45,15 @@ public class CountingSort {
         // To make it stable we are operating in reverse
         // order.
         for (int i = n - 1; i >= 0; i--) {
-            output[count[arr[i]] - 1] = arr[i];
-            --count[arr[i]];
+            output[count[vector[i].getValue()] - 1] = vector[i].getValue();
+            --count[vector[i].getValue()];
         }
 
         // Copy the output array to arr, so that arr now
         // contains sorted characters
         for (int i = 0; i < n; ++i){
-            arr[i] = output[i];
+            Generics<?, Integer> copy= new Generics<>( vector[i].getKey(), output[i] );
+            vector[i] = copy;
         }
-        return arr;
     }
 }

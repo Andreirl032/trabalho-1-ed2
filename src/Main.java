@@ -1,17 +1,18 @@
 import sort.Heap;
+import sort.Merge;
 import structs.Generics;
 
 import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        Generics<?, ?>[] vector = genVector( 500_000 );
+        Generics<?, ?>[] vector = genVector( 100 );
         printVector( vector );
 
-        Heap heapsort = new Heap();
+        Merge sorter = new Merge();
 
         final long startTime = System.currentTimeMillis();
-        heapsort.sort( vector );
+        sorter.sort( vector );
         final long endTime = System.currentTimeMillis();
 
         printVector( vector );
@@ -32,7 +33,7 @@ public class Main {
         Random random = new Random();
 
         for ( int i = 0; i < vector.length; i++ ){
-            vector[ i ] = new Generics<Integer, Integer >( Math.abs( random.nextInt() ), Math.abs( random.nextInt() ) );
+            vector[ i ] = new Generics<Integer, Integer >( Math.abs( random.nextInt( 0, 200) ), Math.abs( random.nextInt( 0, 200 ) ) );
         }
 
         return vector;
