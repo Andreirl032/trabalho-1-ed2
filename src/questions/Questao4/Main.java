@@ -24,13 +24,11 @@ public class Main {
 
         Random random = new Random();
 
-        int luck;
         for ( int i = 1; i <= 100; i++ ){
             vector = genVector( 100_000 );
-            luck = i;
 
             final long startTime = System.currentTimeMillis();
-            sorter.porcento_E( vector, luck );
+            sorter.porcento_E( vector, i );
             final long endTime = System.currentTimeMillis();
 
             System.out.println( "\nTempo total de execução: " + ( endTime - startTime ) );

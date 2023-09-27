@@ -26,11 +26,11 @@ public class Mediana {
 
         Counting sorter = new Counting();
 
-        final long startTime2 = System.currentTimeMillis();
+        final long startTime = System.currentTimeMillis();
         sorter.sort( Generic_vector );
-        final long endTime2 = System.currentTimeMillis();
+        final long endTime = System.currentTimeMillis();
 
-        System.out.println( "Tempo total de execução:" + ( endTime2 - startTime2 ) );
+        System.out.println( "Tempo total de execução:" + ( endTime - startTime ) );
 
         int middle = ( Generic_vector.length - 1 ) / 2;
         if ( Generic_vector.length % 2 == 0 ){
@@ -40,13 +40,37 @@ public class Mediana {
         }
     }
 
-//    public static void achaMediana( String[] vetor_1, String[] vetor_2 ){
-//        if( vetor_1.length!= vetor_2.length){
-//            System.out.println("ERRO! OS VETORES DEVEM SER DE MESMO TAMANHO");
-//            return;
-//        }
-//
-//
+    public static double achaMediana( String[] vetor_1, String[] vetor_2 ){
+        if( vetor_1.length != vetor_2.length){
+            System.out.println("ERRO! OS VETORES DEVEM SER DE MESMO TAMANHO");
+            return 1;
+        }
+
+        Generics<?, ?>[] Generic_vector = new Generics[ vetor_1.length + vetor_2.length ];
+
+        for( int i = 0; i < vetor_1.length ; i++ ){
+            Generics< ?, ? > a = new Generics<>( i, vetor_1[i] );
+            Generics< ?, ? > b = new Generics<>( i + vetor_2.length, vetor_2[i] );
+            Generic_vector[ i ] = a;
+            Generic_vector[ i + vetor_1.length ] = b;
+        }
+
+        Counting sorter = new Counting();
+
+        final long startTime = System.currentTimeMillis();
+        sorter.sort( Generic_vector );
+        final long endTime = System.currentTimeMillis();
+
+        System.out.println( "Tempo total de execução:" + ( endTime - startTime ) );
+
+        int middle = ( Generic_vector.length - 1 ) / 2;
+        if ( Generic_vector.length % 2 == 0 ){
+            return ( (double) Generic_vector[middle].getValue() + (double) Generic_vector[middle].getValue() ) / 2 ;
+        } else {
+            return (double) Generic_vector[middle].getValue();
+        }
+
+
 //        String[] vetorString = new String[vetor_1.length+vetor_2.length];
 //        for(int i=0;i<vetor_1.length;i++){
 //            vetorString[i]=vetor_1[i];
@@ -56,6 +80,6 @@ public class Mediana {
 //        }
 //
 ////        ordenarVetorString(vetorString);
-//    }
+    }
 
 }
