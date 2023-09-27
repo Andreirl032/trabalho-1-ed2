@@ -46,4 +46,40 @@ public class Insert extends Sorter{
             vector[ i + 1 ] = key; this.movements++;
         }
     }
+
+    public void gap_sort(Generics<?, ?>[] vector, int start, int end) {
+        int i, j;
+        Generics<?, ?> key;
+
+        for ( j = start + 1; j < end; j++ ){ this.movements++; this.comparisons++; this.movements++;
+            key = vector[ j ]; this.movements++;
+
+            i = j - 1; this.movements++;
+
+            while ( i >= 0 && vector[i].compareTo( key ) > 0 ){ this.comparisons++; this.comparisons++;
+                vector[ i + 1 ] = vector[ i ]; this.movements++;
+                i--; this.movements++;
+            }
+
+            vector[ i + 1 ] = key; this.movements++;
+        }
+    }
+
+    public void inverted_gap_sort(Generics<?, ?>[] vector, int start, int end) {
+        int i, j;
+        Generics<?, ?> key;
+
+        for ( j = start + 1; j < end; j++ ){ this.movements++; this.comparisons++; this.movements++;
+            key = vector[ j ]; this.movements++;
+
+            i = j - 1; this.movements++;
+
+            while ( i >= 0 && vector[i].compareTo( key ) <= 0 ){ this.comparisons++; this.comparisons++;
+                vector[ i + 1 ] = vector[ i ]; this.movements++;
+                i--; this.movements++;
+            }
+
+            vector[ i + 1 ] = key; this.movements++;
+        }
+    }
 }

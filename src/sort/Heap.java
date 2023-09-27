@@ -39,7 +39,7 @@ public class Heap extends Sorter {
         }
     }
 
-    private void buildMaxHeap( Generics<?, ?>[] vector, int size ){
+    public void buildMaxHeap( Generics<?, ?>[] vector, int size ){
         int chao = (int) Math.floor( (double) size / 2 );
 
         for ( int i = chao; i >= 0; i-- ){
@@ -83,7 +83,7 @@ public class Heap extends Sorter {
         }
     }
 
-    private void buildMinHeap( Generics<?, ?>[] vector, int size ){
+    public void buildMinHeap( Generics<?, ?>[] vector, int size ){
         int chao = (int) Math.floor( (double) size / 2 );
 
         for ( int i = chao; i >= 0; i-- ){

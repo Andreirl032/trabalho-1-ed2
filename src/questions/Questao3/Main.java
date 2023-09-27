@@ -27,14 +27,16 @@ public class Main {
             luck = random.nextInt(1, 2);
 
             final long startTime = System.currentTimeMillis();
-//            if ( luck == 1 ){
-//                DistT.n_logn( ( Generics<?, Integer>[] ) vector, T );
-//            } else {
-//                DistT.n_2( ( Generics<?, Integer>[] ) vector, T );
-//            }
-            DistT.n_2( ( Generics<?, Integer>[] ) vector, T );
+            if ( luck == 1 ){
+                DistT.n_logn( ( Generics<?, Integer>[] ) vector, T );
+            } else {
+                DistT.n_2( ( Generics<?, Integer>[] ) vector, T );
+            }
+//            DistT.n_2( ( Generics<?, Integer>[] ) vector, 2_000_001 );
             final long endTime = System.currentTimeMillis();
 
             System.out.println( "\nTempo total de execução: " + ( endTime - startTime ) );
         }
-    }}
+        DistT.n_2( ( Generics<?, Integer>[] ) vector, 2_000_001 );
+    }
+}
