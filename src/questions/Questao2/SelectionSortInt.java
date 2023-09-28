@@ -10,7 +10,7 @@ public class SelectionSortInt {
                 }
             }
             vetor[i]=menor;
+        }
+        return vetor;
     }
-    return vetor;
-}
 }

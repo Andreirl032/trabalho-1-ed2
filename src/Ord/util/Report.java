@@ -1,3 +1,4 @@
+package Ord.util;
 
 import sort.Sorter;
 
@@ -38,7 +39,7 @@ public class Report {
 
     }
 
-    private String soft_hard_content(){
+    public static void soft_hard_content(){
         String userOS = "user.name";
         String nameOS = "os.name";
         String versionOS = "os.version";
@@ -77,12 +78,24 @@ public class Report {
         String free_RAM = "freePhysicalMemory: " + freePhysicalMemory;
 
         String pc_owner = switch (currentUsername) {
-            case "alphinos" -> "Carlos Veras";
-            case "Andrei" -> "Andrei Ramos";
+            case "Current username: alphinos" -> "Carlos Veras";
+            case "Current username: Andrei" -> "Andrei Ramos";
             default -> "Desconhecido";
         };
 
-        return "Este relatório foi gerado pelo computador de " + pc_owner;
+        System.out.println( informationType );
+        System.out.println( currentUsername );
+        System.out.println( name_OS );
+        System.out.println( version_OS );
+        System.out.println( architecture_OS );
+        System.out.println( available_cores );
+        System.out.println( free_available_memory );
+        System.out.println( maximum_memory );
+        System.out.println( total_memory_available );
+        System.out.println( total_RAM );
+        System.out.println( free_RAM );
+
+        System.out.println( "Este relatório foi gerado pelo computador de " + pc_owner );
 
     }
 

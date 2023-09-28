@@ -1,3 +1,5 @@
+package Ord.util;
+
 import java.util.Scanner;
 
 public class Input {

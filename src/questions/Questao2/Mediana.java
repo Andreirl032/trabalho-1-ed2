@@ -5,9 +5,6 @@ import sort.Counting;
 import structs.Generics;
 
 public class Mediana {
-    //Atributos
-//    int []vetorInt;
-//    String []vetorString;
 
     public static double achaMediana( int[] vetor_1, int[] vetor_2 ){
         if( vetor_1.length != vetor_2.length){

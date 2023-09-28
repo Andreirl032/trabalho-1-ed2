@@ -1,10 +1,11 @@
 package questions.Questao4;
 
-import questions.Questao3.DistT;
 import sort.BHSI;
 import structs.Generics;
 
 import java.util.Random;
+
+import Ord.util.Report;
 
 public class Main {
     public static Generics<?, ?>[] genVector(int size ){
@@ -33,5 +34,7 @@ public class Main {
 
             System.out.println( "\nTempo total de execução: " + ( endTime - startTime ) );
         }
+
+        Report.soft_hard_content();
     }
 }

@@ -23,8 +23,14 @@ public class BHSI extends Sorter {
         select.gap_sort( vector, 0, porcento_E );
         select.gap_sort( vector, vector.length - 1 - porcento_E, vector.length );
 
+        this.comparisons = select.getComparisons();
+        this.movements = select.getMovements();
+
         Insert insert = new Insert();
         insert.gap_sort( vector, porcento_E + 1, vector.length - porcento_E);
+
+        this.comparisons += insert.getComparisons();
+        this.movements += insert.getMovements();
     }
 
     public void inverted_Porcento_E( Generics<?, ?>[] vector, int E ){
