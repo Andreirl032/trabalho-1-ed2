@@ -1,24 +1,62 @@
 package questions.Questao2;
 
+import structs.Generics;
+
 import static questions.Questao2.Mediana.achaMediana;
 
+import java.util.Random;
+
 public class Main {
-    public static int[] geraVetor( int n ){
-        int[] vetor = new int[ n ];
-        for( int i = 0 ; i<n; i++ ){
-//            vetor[i] = (int)(Math.random()*n)+1;
-            vetor[i]=i;
+    public static Generics<?, ?>[] gera_vector_inteiro( int size ){
+        Generics<?, ?>[] vector = new Generics<?, ?>[ size ];
+
+        Random random = new Random();
+
+        for ( int i = 0; i < vector.length; i++ ){
+            vector[ i ] = new Generics<Integer, Integer >( random.nextInt(  ) , random.nextInt(  ) );
         }
-        return vetor;
+
+        return vector;
+    }
+
+    public static Generics<?, ?>[] gera_vector_string( int size, int max_string_size ){
+        Generics<?, ?>[] vector = new Generics<?, ?>[ size ];
+
+        Random random = new Random();
+
+        for ( int i = 0; i < vector.length; i++ ){
+            vector[ i ] = new Generics<Integer, String >( random.nextInt(  ) , RandomString( max_string_size ) );
+        }
+
+        return vector;
+    }
+
+    public static String RandomString( int max ) {// Gera strings. Fonte: https://www.programiz.com/java-programming/examples/generate-random-string
+        String alphabet= "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz!@#$%*()_-+=§{}[]ªºÇç:;.><,/?°";
+        StringBuilder sb = new StringBuilder();
+        Random random = new Random();
+
+        for (int i = 0; i < max; i++) {
+            int index = random.nextInt(alphabet.length());
+            char randomChar = alphabet.charAt(index);
+            sb.append(randomChar);
+        }
+
+        return sb.toString();
     }
 
     public static void main(String[] args) {
-        int []vetor1 = new int[5000000];
-        int []vetor2 = new int[5000000];
-        for(int i=4999999;i>=0;i--){
-            vetor1[4999999-i]=i+5000000;
-            vetor2[4999999-i]=i;
-        }
-        double mediana = achaMediana(vetor1,vetor2);
+        Generics<?, ?>[] vector1 = gera_vector_inteiro( 500_000 );
+        Generics<?, ?>[] vector2 = gera_vector_inteiro( 500_000 );
+
+        double mediana = achaMediana( vector1, vector2 );
         System.out.println("Mediana: "+mediana);
-    }}
+
+        vector1 = gera_vector_string( 500_000, 32 );
+        vector2 = gera_vector_string( 500_000, 32 );
+
+        mediana = achaMediana( vector1, vector2 );
+
+        System.out.println("Mediana: "+mediana);
+    }
+}

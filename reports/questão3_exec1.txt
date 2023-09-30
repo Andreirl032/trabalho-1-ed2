@@ -1,0 +1,1027 @@
+Achar a distância com 2_000_000 elementos no vetor
+
+Para este cenário, foi usado o couting sort e o maior elemento é igual ao tamanho do vetor e todos os elementos são positivos.
+As instâncias seguintes são menos comportadas: os números são todos aleatórios
+
+Distância T : 0
+
+Algoritmo n logn
+Resposta: A = 0 B = 0
+Tempo total de execução: 489
+
+Algoritmo n²
+Resposta: A = 0 B = 0
+Tempo total de execução: 543
+
+Distância T : 1
+
+Algoritmo n logn
+Resposta: A = 0 B = 1
+Tempo total de execução: 341
+
+Algoritmo n²
+Resposta: A = 0 B = 1
+Tempo total de execução: 271
+
+Distância T : 2
+
+Algoritmo n logn
+Resposta: A = 0 B = 2
+Tempo total de execução: 283
+
+Algoritmo n²
+Resposta: A = 0 B = 2
+Tempo total de execução: 271
+
+Distância T : 3
+
+Algoritmo n logn
+Resposta: A = 0 B = 3
+Tempo total de execução: 259
+
+Algoritmo n²
+Resposta: A = 0 B = 3
+Tempo total de execução: 305
+
+Distância T : 4
+
+Algoritmo n logn
+Resposta: A = 1 B = 5
+Tempo total de execução: 279
+
+Algoritmo n²
+Resposta: A = 1 B = 5
+Tempo total de execução: 209
+
+Distância T : 5
+
+Algoritmo n logn
+Resposta: A = 0 B = 5
+Tempo total de execução: 179
+
+Algoritmo n²
+Resposta: A = 0 B = 5
+Tempo total de execução: 262
+
+Distância T : 6
+
+Algoritmo n logn
+Resposta: A = 0 B = 6
+Tempo total de execução: 120
+
+Algoritmo n²
+Resposta: A = 0 B = 6
+Tempo total de execução: 259
+
+Distância T : 7
+
+Algoritmo n logn
+Resposta: A = 1 B = 8
+Tempo total de execução: 122
+
+Algoritmo n²
+Resposta: A = 1 B = 8
+Tempo total de execução: 349
+
+Distância T : 8
+
+Algoritmo n logn
+Resposta: A = 0 B = 8
+Tempo total de execução: 164
+
+Algoritmo n²
+Resposta: A = 0 B = 8
+Tempo total de execução: 134
+
+Distância T : 9
+
+Algoritmo n logn
+Resposta: A = 0 B = 9
+Tempo total de execução: 131
+
+Algoritmo n²
+Resposta: A = 0 B = 9
+Tempo total de execução: 132
+
+Distância T : 10
+
+Algoritmo n logn
+Resposta: A = 0 B = 10
+Tempo total de execução: 176
+
+Algoritmo n²
+Resposta: A = 0 B = 10
+Tempo total de execução: 281
+
+Distância T : 11
+
+Algoritmo n logn
+Resposta: A = 0 B = 11
+Tempo total de execução: 122
+
+Algoritmo n²
+Resposta: A = 0 B = 11
+Tempo total de execução: 123
+
+Distância T : 12
+
+Algoritmo n logn
+Resposta: A = 0 B = 12
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 0 B = 12
+Tempo total de execução: 124
+
+Distância T : 13
+
+Algoritmo n logn
+Resposta: A = 1 B = 14
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 1 B = 14
+Tempo total de execução: 273
+
+Distância T : 14
+
+Algoritmo n logn
+Resposta: A = 0 B = 14
+Tempo total de execução: 121
+
+Algoritmo n²
+Resposta: A = 0 B = 14
+Tempo total de execução: 121
+
+Distância T : 15
+
+Algoritmo n logn
+Resposta: A = 2 B = 17
+Tempo total de execução: 129
+
+Algoritmo n²
+Resposta: A = 2 B = 17
+Tempo total de execução: 152
+
+Distância T : 16
+
+Algoritmo n logn
+Resposta: A = 1 B = 17
+Tempo total de execução: 119
+
+Algoritmo n²
+Resposta: A = 1 B = 17
+Tempo total de execução: 299
+
+Distância T : 17
+
+Algoritmo n logn
+Resposta: A = 0 B = 17
+Tempo total de execução: 122
+
+Algoritmo n²
+Resposta: A = 0 B = 17
+Tempo total de execução: 129
+
+Distância T : 18
+
+Algoritmo n logn
+Resposta: A = 1 B = 19
+Tempo total de execução: 136
+
+Algoritmo n²
+Resposta: A = 1 B = 19
+Tempo total de execução: 183
+
+Distância T : 19
+
+Algoritmo n logn
+Resposta: A = 0 B = 19
+Tempo total de execução: 173
+
+Algoritmo n²
+Resposta: A = 0 B = 19
+Tempo total de execução: 327
+
+Distância T : 20
+
+Algoritmo n logn
+Resposta: A = 0 B = 20
+Tempo total de execução: 122
+
+Algoritmo n²
+Resposta: A = 0 B = 20
+Tempo total de execução: 125
+
+Distância T : 21
+
+Algoritmo n logn
+Resposta: A = 0 B = 21
+Tempo total de execução: 127
+
+Algoritmo n²
+Resposta: A = 0 B = 21
+Tempo total de execução: 129
+
+Distância T : 22
+
+Algoritmo n logn
+Resposta: A = 0 B = 22
+Tempo total de execução: 124
+
+Algoritmo n²
+Resposta: A = 0 B = 22
+Tempo total de execução: 131
+
+Distância T : 23
+
+Algoritmo n logn
+Resposta: A = 0 B = 23
+Tempo total de execução: 159
+
+Algoritmo n²
+Resposta: A = 0 B = 23
+Tempo total de execução: 282
+
+Distância T : 24
+
+Algoritmo n logn
+Resposta: A = 1 B = 25
+Tempo total de execução: 121
+
+Algoritmo n²
+Resposta: A = 1 B = 25
+Tempo total de execução: 151
+
+Distância T : 25
+
+Algoritmo n logn
+Resposta: A = 0 B = 25
+Tempo total de execução: 124
+
+Algoritmo n²
+Resposta: A = 0 B = 25
+Tempo total de execução: 123
+
+Distância T : 26
+
+Algoritmo n logn
+Resposta: A = 0 B = 26
+Tempo total de execução: 127
+
+Algoritmo n²
+Resposta: A = 0 B = 26
+Tempo total de execução: 122
+
+Distância T : 27
+
+Algoritmo n logn
+Resposta: A = 1 B = 28
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 1 B = 28
+Tempo total de execução: 276
+
+Distância T : 28
+
+Algoritmo n logn
+Resposta: A = 0 B = 28
+Tempo total de execução: 119
+
+Algoritmo n²
+Resposta: A = 0 B = 28
+Tempo total de execução: 126
+
+Distância T : 29
+
+Algoritmo n logn
+Resposta: A = 3 B = 32
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 3 B = 32
+Tempo total de execução: 162
+
+Distância T : 30
+
+Algoritmo n logn
+Resposta: A = 2 B = 32
+Tempo total de execução: 122
+
+Algoritmo n²
+Resposta: A = 2 B = 32
+Tempo total de execução: 147
+
+Distância T : 31
+
+Algoritmo n logn
+Resposta: A = 1 B = 32
+Tempo total de execução: 121
+
+Algoritmo n²
+Resposta: A = 1 B = 32
+Tempo total de execução: 277
+
+Distância T : 32
+
+Algoritmo n logn
+Resposta: A = 0 B = 32
+Tempo total de execução: 120
+
+Algoritmo n²
+Resposta: A = 0 B = 32
+Tempo total de execução: 123
+
+Distância T : 33
+
+Algoritmo n logn
+Resposta: A = 1 B = 34
+Tempo total de execução: 130
+
+Algoritmo n²
+Resposta: A = 1 B = 34
+Tempo total de execução: 144
+
+Distância T : 34
+
+Algoritmo n logn
+Resposta: A = 0 B = 34
+Tempo total de execução: 143
+
+Algoritmo n²
+Resposta: A = 0 B = 34
+Tempo total de execução: 161
+
+Distância T : 35
+
+Algoritmo n logn
+Resposta: A = 0 B = 35
+Tempo total de execução: 139
+
+Algoritmo n²
+Resposta: A = 0 B = 35
+Tempo total de execução: 271
+
+Distância T : 36
+
+Algoritmo n logn
+Resposta: A = 0 B = 36
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 0 B = 36
+Tempo total de execução: 123
+
+Distância T : 37
+
+Algoritmo n logn
+Resposta: A = 1 B = 38
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 1 B = 38
+Tempo total de execução: 143
+
+Distância T : 38
+
+Algoritmo n logn
+Resposta: A = 0 B = 38
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 0 B = 38
+Tempo total de execução: 128
+
+Distância T : 39
+
+Algoritmo n logn
+Resposta: A = 0 B = 39
+Tempo total de execução: 127
+
+Algoritmo n²
+Resposta: A = 0 B = 39
+Tempo total de execução: 271
+
+Distância T : 40
+
+Algoritmo n logn
+Resposta: A = 1 B = 41
+Tempo total de execução: 129
+
+Algoritmo n²
+Resposta: A = 1 B = 41
+Tempo total de execução: 143
+
+Distância T : 41
+
+Algoritmo n logn
+Resposta: A = 0 B = 41
+Tempo total de execução: 127
+
+Algoritmo n²
+Resposta: A = 0 B = 41
+Tempo total de execução: 123
+
+Distância T : 42
+
+Algoritmo n logn
+Resposta: A = 0 B = 42
+Tempo total de execução: 127
+
+Algoritmo n²
+Resposta: A = 0 B = 42
+Tempo total de execução: 124
+
+Distância T : 43
+
+Algoritmo n logn
+Resposta: A = 3 B = 46
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 3 B = 46
+Tempo total de execução: 288
+
+Distância T : 44
+
+Algoritmo n logn
+Resposta: A = 2 B = 46
+Tempo total de execução: 120
+
+Algoritmo n²
+Resposta: A = 2 B = 46
+Tempo total de execução: 153
+
+Distância T : 45
+
+Algoritmo n logn
+Resposta: A = 1 B = 46
+Tempo total de execução: 121
+
+Algoritmo n²
+Resposta: A = 1 B = 46
+Tempo total de execução: 145
+
+Distância T : 46
+
+Algoritmo n logn
+Resposta: A = 0 B = 46
+Tempo total de execução: 122
+
+Algoritmo n²
+Resposta: A = 0 B = 46
+Tempo total de execução: 126
+
+Distância T : 47
+
+Algoritmo n logn
+Resposta: A = 0 B = 47
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 0 B = 47
+Tempo total de execução: 261
+
+Distância T : 48
+
+Algoritmo n logn
+Resposta: A = 0 B = 48
+Tempo total de execução: 119
+
+Algoritmo n²
+Resposta: A = 0 B = 48
+Tempo total de execução: 123
+
+Distância T : 49
+
+Algoritmo n logn
+Resposta: A = 1 B = 50
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 1 B = 50
+Tempo total de execução: 144
+
+Distância T : 50
+
+Algoritmo n logn
+Resposta: A = 0 B = 50
+Tempo total de execução: 124
+
+Algoritmo n²
+Resposta: A = 0 B = 50
+Tempo total de execução: 125
+
+Distância T : 51
+
+Algoritmo n logn
+Resposta: A = 3 B = 54
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 3 B = 54
+Tempo total de execução: 313
+
+Distância T : 52
+
+Algoritmo n logn
+Resposta: A = 2 B = 54
+Tempo total de execução: 120
+
+Algoritmo n²
+Resposta: A = 2 B = 54
+Tempo total de execução: 150
+
+Distância T : 53
+
+Algoritmo n logn
+Resposta: A = 1 B = 54
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 1 B = 54
+Tempo total de execução: 149
+
+Distância T : 54
+
+Algoritmo n logn
+Resposta: A = 0 B = 54
+Tempo total de execução: 124
+
+Algoritmo n²
+Resposta: A = 0 B = 54
+Tempo total de execução: 126
+
+Distância T : 55
+
+Algoritmo n logn
+Resposta: A = 0 B = 55
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 0 B = 55
+Tempo total de execução: 127
+
+Distância T : 56
+
+Algoritmo n logn
+Resposta: A = 0 B = 56
+Tempo total de execução: 264
+
+Algoritmo n²
+Resposta: A = 0 B = 56
+Tempo total de execução: 125
+
+Distância T : 57
+
+Algoritmo n logn
+Resposta: A = 0 B = 57
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 0 B = 57
+Tempo total de execução: 125
+
+Distância T : 58
+
+Algoritmo n logn
+Resposta: A = 0 B = 58
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 0 B = 58
+Tempo total de execução: 126
+
+Distância T : 59
+
+Algoritmo n logn
+Resposta: A = 0 B = 59
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 0 B = 59
+Tempo total de execução: 125
+
+Distância T : 60
+
+Algoritmo n logn
+Resposta: A = 2 B = 62
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 2 B = 62
+Tempo total de execução: 284
+
+Distância T : 61
+
+Algoritmo n logn
+Resposta: A = 1 B = 62
+Tempo total de execução: 120
+
+Algoritmo n²
+Resposta: A = 1 B = 62
+Tempo total de execução: 143
+
+Distância T : 62
+
+Algoritmo n logn
+Resposta: A = 0 B = 62
+Tempo total de execução: 122
+
+Algoritmo n²
+Resposta: A = 0 B = 62
+Tempo total de execução: 126
+
+Distância T : 63
+
+Algoritmo n logn
+Resposta: A = 0 B = 63
+Tempo total de execução: 129
+
+Algoritmo n²
+Resposta: A = 0 B = 63
+Tempo total de execução: 126
+
+Distância T : 64
+
+Algoritmo n logn
+Resposta: A = 0 B = 64
+Tempo total de execução: 122
+
+Algoritmo n²
+Resposta: A = 0 B = 64
+Tempo total de execução: 125
+
+Distância T : 65
+
+Algoritmo n logn
+Resposta: A = 0 B = 65
+Tempo total de execução: 257
+
+Algoritmo n²
+Resposta: A = 0 B = 65
+Tempo total de execução: 123
+
+Distância T : 66
+
+Algoritmo n logn
+Resposta: A = 1 B = 67
+Tempo total de execução: 124
+
+Algoritmo n²
+Resposta: A = 1 B = 67
+Tempo total de execução: 143
+
+Distância T : 67
+
+Algoritmo n logn
+Resposta: A = 0 B = 67
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 0 B = 67
+Tempo total de execução: 123
+
+Distância T : 68
+
+Algoritmo n logn
+Resposta: A = 8 B = 76
+Tempo total de execução: 122
+
+Algoritmo n²
+Resposta: A = 8 B = 76
+Tempo total de execução: 193
+
+Distância T : 69
+
+Algoritmo n logn
+Resposta: A = 6 B = 75
+Tempo total de execução: 131
+
+Algoritmo n²
+Resposta: A = 6 B = 75
+Tempo total de execução: 310
+
+Distância T : 70
+
+Algoritmo n logn
+Resposta: A = 5 B = 75
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 5 B = 75
+Tempo total de execução: 186
+
+Distância T : 71
+
+Algoritmo n logn
+Resposta: A = 5 B = 76
+Tempo total de execução: 119
+
+Algoritmo n²
+Resposta: A = 5 B = 76
+Tempo total de execução: 189
+
+Distância T : 72
+
+Algoritmo n logn
+Resposta: A = 3 B = 75
+Tempo total de execução: 124
+
+Algoritmo n²
+Resposta: A = 3 B = 75
+Tempo total de execução: 161
+
+Distância T : 73
+
+Algoritmo n logn
+Resposta: A = 2 B = 75
+Tempo total de execução: 121
+
+Algoritmo n²
+Resposta: A = 2 B = 75
+Tempo total de execução: 153
+
+Distância T : 74
+
+Algoritmo n logn
+Resposta: A = 1 B = 75
+Tempo total de execução: 264
+
+Algoritmo n²
+Resposta: A = 1 B = 75
+Tempo total de execução: 138
+
+Distância T : 75
+
+Algoritmo n logn
+Resposta: A = 0 B = 75
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 0 B = 75
+Tempo total de execução: 123
+
+Distância T : 76
+
+Algoritmo n logn
+Resposta: A = 0 B = 76
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 0 B = 76
+Tempo total de execução: 124
+
+Distância T : 77
+
+Algoritmo n logn
+Resposta: A = 0 B = 77
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 0 B = 77
+Tempo total de execução: 123
+
+Distância T : 78
+
+Algoritmo n logn
+Resposta: A = 0 B = 78
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 0 B = 78
+Tempo total de execução: 254
+
+Distância T : 79
+
+Algoritmo n logn
+Resposta: A = 0 B = 79
+Tempo total de execução: 120
+
+Algoritmo n²
+Resposta: A = 0 B = 79
+Tempo total de execução: 126
+
+Distância T : 80
+
+Algoritmo n logn
+Resposta: A = 1 B = 81
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 1 B = 81
+Tempo total de execução: 144
+
+Distância T : 81
+
+Algoritmo n logn
+Resposta: A = 0 B = 81
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 0 B = 81
+Tempo total de execução: 125
+
+Distância T : 82
+
+Algoritmo n logn
+Resposta: A = 0 B = 82
+Tempo total de execução: 124
+
+Algoritmo n²
+Resposta: A = 0 B = 82
+Tempo total de execução: 125
+
+Distância T : 83
+
+Algoritmo n logn
+Resposta: A = 0 B = 83
+Tempo total de execução: 256
+
+Algoritmo n²
+Resposta: A = 0 B = 83
+Tempo total de execução: 123
+
+Distância T : 84
+
+Algoritmo n logn
+Resposta: A = 1 B = 85
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 1 B = 85
+Tempo total de execução: 140
+
+Distância T : 85
+
+Algoritmo n logn
+Resposta: A = 0 B = 85
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 0 B = 85
+Tempo total de execução: 124
+
+Distância T : 86
+
+Algoritmo n logn
+Resposta: A = 0 B = 86
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 0 B = 86
+Tempo total de execução: 127
+
+Distância T : 87
+
+Algoritmo n logn
+Resposta: A = 1 B = 88
+Tempo total de execução: 127
+
+Algoritmo n²
+Resposta: A = 1 B = 88
+Tempo total de execução: 271
+
+Distância T : 88
+
+Algoritmo n logn
+Resposta: A = 0 B = 88
+Tempo total de execução: 120
+
+Algoritmo n²
+Resposta: A = 0 B = 88
+Tempo total de execução: 121
+
+Distância T : 89
+
+Algoritmo n logn
+Resposta: A = 1 B = 90
+Tempo total de execução: 127
+
+Algoritmo n²
+Resposta: A = 1 B = 90
+Tempo total de execução: 142
+
+Distância T : 90
+
+Algoritmo n logn
+Resposta: A = 0 B = 90
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 0 B = 90
+Tempo total de execução: 125
+
+Distância T : 91
+
+Algoritmo n logn
+Resposta: A = 0 B = 91
+Tempo total de execução: 125
+
+Algoritmo n²
+Resposta: A = 0 B = 91
+Tempo total de execução: 125
+
+Distância T : 92
+
+Algoritmo n logn
+Resposta: A = 0 B = 92
+Tempo total de execução: 263
+
+Algoritmo n²
+Resposta: A = 0 B = 92
+Tempo total de execução: 122
+
+Distância T : 93
+
+Algoritmo n logn
+Resposta: A = 0 B = 93
+Tempo total de execução: 123
+
+Algoritmo n²
+Resposta: A = 0 B = 93
+Tempo total de execução: 123
+
+Distância T : 94
+
+Algoritmo n logn
+Resposta: A = 0 B = 94
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 0 B = 94
+Tempo total de execução: 124
+
+Distância T : 95
+
+Algoritmo n logn
+Resposta: A = 0 B = 95
+Tempo total de execução: 128
+
+Algoritmo n²
+Resposta: A = 0 B = 95
+Tempo total de execução: 124
+
+Distância T : 96
+
+Algoritmo n logn
+Resposta: A = 1 B = 97
+Tempo total de execução: 128
+
+Algoritmo n²
+Resposta: A = 1 B = 97
+Tempo total de execução: 267
+
+Distância T : 97
+
+Algoritmo n logn
+Resposta: A = 0 B = 97
+Tempo total de execução: 120
+
+Algoritmo n²
+Resposta: A = 0 B = 97
+Tempo total de execução: 123
+
+Distância T : 98
+
+Algoritmo n logn
+Resposta: A = 0 B = 98
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 0 B = 98
+Tempo total de execução: 124
+
+Distância T : 99
+
+Algoritmo n logn
+Resposta: A = 0 B = 99
+Tempo total de execução: 126
+
+Algoritmo n²
+Resposta: A = 0 B = 99
+Tempo total de execução: 125
+
+Distância T : 100
+
+Algoritmo n logn
+Resposta: A = 1 B = 101
+Tempo total de execução: 124
+
+Algoritmo n²
+Resposta: A = 1 B = 101
+Tempo total de execução: 142
+
+The information about OS
+Current username: alphinos
+Name of the OS: Linux
+Version of the OS: 6.1.53-1-MANJARO
+Architecture of THe OS: amd64
+Available processors (cores): 4
+Free memory (bytes): 267
+Maximum memory (bytes): 1966
+Total memory available to JVM (bytes): 1861
+physicalMemorySize: 7
+freePhysicalMemory: 115
+Este relatório foi gerado pelo computador de Carlos Veras

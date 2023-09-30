@@ -1,6 +1,7 @@
 package questions.Questao3;
 
 import sort.Counting;
+import sort.Merge;
 import structs.Generics;
 
 import java.util.Objects;
@@ -9,7 +10,7 @@ import static java.util.Arrays.binarySearch;
 
 public class DistT {
     public static Generics<?, Integer>[] n_2( Generics<?, Integer>[] vector, int T ){
-        Counting sorter = new Counting();
+        Merge sorter = new Merge();
         sorter.sort( vector );
 
         Generics<?, Integer>[] answer;
@@ -31,7 +32,7 @@ public class DistT {
         return null;
     }
     public static Generics<?, Integer>[] n_logn( Generics<?, Integer>[] vector, int T ){
-        Counting sorter = new Counting();
+        Merge sorter = new Merge();
         sorter.sort( vector );
 
         Generics<?, Integer>[] answer;

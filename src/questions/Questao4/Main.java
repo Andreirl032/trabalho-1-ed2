@@ -25,8 +25,8 @@ public class Main {
 
         Random random = new Random();
 
-        for ( int i = 1; i <= 100; i++ ){
-            vector = genVector( 100_000 );
+        for ( int i = 91; i <= 100; i++ ){
+            vector = genVector( 500_000 );
 
             final long startTime = System.currentTimeMillis();
             sorter.porcento_E( vector, i );

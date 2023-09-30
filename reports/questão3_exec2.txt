@@ -1,0 +1,1027 @@
+Achar a distância com 1_000_000 elementos no vetor
+
+Para este cenário, foi usado o merge sort. Todos os elementos foram gerados de forma aleatória.
+Ao fazer com que as instâncias não tenham bom funcionamento, o trecho de algoritmo para encontrar o elemento a uma distância T passa a ter bem mais relevância.
+
+Distância T : 0
+
+Algoritmo n logn
+Resposta: A = -2147476775 B = -2147476775
+Tempo total de execução: 1709
+
+Algoritmo n²
+Resposta: A = -2147476775 B = -2147476775
+Tempo total de execução: 923
+
+Distância T : 1
+
+Algoritmo n logn
+Resposta: A = -2139282938 B = -2139282937
+Tempo total de execução: 867
+
+Algoritmo n²
+Resposta: A = -2139282938 B = -2139282937
+Tempo total de execução: 36761
+
+Distância T : 2
+
+Algoritmo n logn
+Resposta: A = -2144849918 B = -2144849916
+Tempo total de execução: 1251
+
+Algoritmo n²
+Resposta: A = -2144849918 B = -2144849916
+Tempo total de execução: 14550
+
+Distância T : 3
+
+Algoritmo n logn
+Resposta: A = -2137653619 B = -2137653616
+Tempo total de execução: 897
+
+Algoritmo n²
+Resposta: A = -2137653619 B = -2137653616
+Tempo total de execução: 48741
+
+Distância T : 4
+
+Algoritmo n logn
+Resposta: A = -2124620223 B = -2124620219
+Tempo total de execução: 1090
+
+Algoritmo n²
+Resposta: A = -2124620223 B = -2124620219
+Tempo total de execução: 94313
+
+Distância T : 5
+
+Algoritmo n logn
+Resposta: A = -2104136199 B = -2104136194
+Tempo total de execução: 913
+
+Algoritmo n²
+Resposta: A = -2104136199 B = -2104136194
+Tempo total de execução: 175767
+
+Distância T : 6
+
+Algoritmo n logn
+Resposta: A = -2144209356 B = -2144209350
+Tempo total de execução: 867
+
+Algoritmo n²
+Resposta: A = -2144209356 B = -2144209350
+Tempo total de execução: 14261
+
+Distância T : 7
+
+Algoritmo n logn
+Resposta: A = -2144839992 B = -2144839985
+Tempo total de execução: 879
+
+Algoritmo n²
+Resposta: A = -2144839992 B = -2144839985
+Tempo total de execução: 11700
+
+Distância T : 8
+
+Algoritmo n logn
+Resposta: A = -2143553702 B = -2143553694
+Tempo total de execução: 868
+
+Algoritmo n²
+Resposta: A = -2143553702 B = -2143553694
+Tempo total de execução: 16416
+
+Distância T : 9
+
+Algoritmo n logn
+Resposta: A = -2131944915 B = -2131944906
+Tempo total de execução: 909
+
+Algoritmo n²
+Resposta: A = -2131944915 B = -2131944906
+Tempo total de execução: 59840
+
+Distância T : 10
+
+Algoritmo n logn
+Resposta: A = -2071408581 B = -2071408571
+Tempo total de execução: 883
+
+Algoritmo n²
+Resposta: A = -2071408581 B = -2071408571
+Tempo total de execução: 347333
+
+Distância T : 11
+
+Algoritmo n logn
+Resposta: A = -2142440439 B = -2142440428
+Tempo total de execução: 952
+
+Algoritmo n²
+Resposta: A = -2142440439 B = -2142440428
+Tempo total de execução: 32972
+
+Distância T : 12
+
+Algoritmo n logn
+Resposta: A = -2143981483 B = -2143981471
+Tempo total de execução: 989
+
+Algoritmo n²
+Resposta: A = -2143981483 B = -2143981471
+Tempo total de execução: 17059
+
+Distância T : 13
+
+Algoritmo n logn
+Resposta: A = -2116606833 B = -2116606820
+Tempo total de execução: 1008
+
+Algoritmo n²
+Resposta: A = -2116606833 B = -2116606820
+Tempo total de execução: 163225
+
+Distância T : 14
+
+Algoritmo n logn
+Resposta: A = -2147418301 B = -2147418287
+Tempo total de execução: 1306
+
+Algoritmo n²
+Resposta: A = -2147418301 B = -2147418287
+Tempo total de execução: 1631
+
+Distância T : 15
+
+Algoritmo n logn
+Resposta: A = -2129285635 B = -2129285620
+Tempo total de execução: 1360
+
+Algoritmo n²
+Resposta: A = -2129285635 B = -2129285620
+Tempo total de execução: 84560
+
+Distância T : 16
+
+Algoritmo n logn
+Resposta: A = -2144571755 B = -2144571739
+Tempo total de execução: 886
+
+Algoritmo n²
+Resposta: A = -2144571755 B = -2144571739
+Tempo total de execução: 12694
+
+Distância T : 17
+
+Algoritmo n logn
+Resposta: A = -2140187873 B = -2140187856
+Tempo total de execução: 862
+
+Algoritmo n²
+Resposta: A = -2140187873 B = -2140187856
+Tempo total de execução: 40009
+
+Distância T : 18
+
+Algoritmo n logn
+Resposta: A = -2115368114 B = -2115368096
+Tempo total de execução: 1042
+
+Algoritmo n²
+Resposta: A = -2115368114 B = -2115368096
+Tempo total de execução: 140606
+
+Distância T : 19
+
+Algoritmo n logn
+Resposta: A = -2131020620 B = -2131020601
+Tempo total de execução: 1078
+
+Algoritmo n²
+Resposta: A = -2131020620 B = -2131020601
+Tempo total de execução: 67339
+
+Distância T : 20
+
+Algoritmo n logn
+Resposta: A = -2143819746 B = -2143819726
+Tempo total de execução: 896
+
+Algoritmo n²
+Resposta: A = -2143819746 B = -2143819726
+Tempo total de execução: 15226
+
+Distância T : 21
+
+Algoritmo n logn
+Resposta: A = -2136478562 B = -2136478541
+Tempo total de execução: 871
+
+Algoritmo n²
+Resposta: A = -2136478562 B = -2136478541
+Tempo total de execução: 42786
+
+Distância T : 22
+
+Algoritmo n logn
+Resposta: A = -2109007834 B = -2109007812
+Tempo total de execução: 873
+
+Algoritmo n²
+Resposta: A = -2109007834 B = -2109007812
+Tempo total de execução: 146576
+
+Distância T : 23
+
+Algoritmo n logn
+Resposta: A = -2104119791 B = -2104119768
+Tempo total de execução: 878
+
+Algoritmo n²
+Resposta: A = -2104119791 B = -2104119768
+Tempo total de execução: 186335
+
+Distância T : 24
+
+Algoritmo n logn
+Resposta: A = -2138428838 B = -2138428814
+Tempo total de execução: 877
+
+Algoritmo n²
+Resposta: A = -2138428838 B = -2138428814
+Tempo total de execução: 39310
+
+Distância T : 25
+
+Algoritmo n logn
+Resposta: A = -2144319472 B = -2144319447
+Tempo total de execução: 863
+
+Algoritmo n²
+Resposta: A = -2144319472 B = -2144319447
+Tempo total de execução: 14553
+
+Distância T : 26
+
+Algoritmo n logn
+Resposta: A = -2137475091 B = -2137475065
+Tempo total de execução: 918
+
+Algoritmo n²
+Resposta: A = -2137475091 B = -2137475065
+Tempo total de execução: 43641
+
+Distância T : 27
+
+Algoritmo n logn
+Resposta: A = -2101966310 B = -2101966283
+Tempo total de execução: 875
+
+Algoritmo n²
+Resposta: A = -2101966310 B = -2101966283
+Tempo total de execução: 197541
+
+Distância T : 28
+
+Algoritmo n logn
+Resposta: A = -2147183827 B = -2147183799
+Tempo total de execução: 863
+
+Algoritmo n²
+Resposta: A = -2147183827 B = -2147183799
+Tempo total de execução: 1933
+
+Distância T : 29
+
+Algoritmo n logn
+Resposta: A = -2145171425 B = -2145171396
+Tempo total de execução: 871
+
+Algoritmo n²
+Resposta: A = -2145171425 B = -2145171396
+Tempo total de execução: 10772
+
+Distância T : 30
+
+Algoritmo n logn
+Resposta: A = -2126233360 B = -2126233330
+Tempo total de execução: 886
+
+Algoritmo n²
+Resposta: A = -2126233360 B = -2126233330
+Tempo total de execução: 88661
+
+Distância T : 31
+
+Algoritmo n logn
+Resposta: A = -2131722734 B = -2131722703
+Tempo total de execução: 935
+
+Algoritmo n²
+Resposta: A = -2131722734 B = -2131722703
+Tempo total de execução: 64807
+
+Distância T : 32
+
+Algoritmo n logn
+Resposta: A = -2140395978 B = -2140395946
+Tempo total de execução: 919
+
+Algoritmo n²
+Resposta: A = -2140395978 B = -2140395946
+Tempo total de execução: 30238
+
+Distância T : 33
+
+Algoritmo n logn
+Resposta: A = -2114929800 B = -2114929767
+Tempo total de execução: 935
+
+Algoritmo n²
+Resposta: A = -2114929800 B = -2114929767
+Tempo total de execução: 132392
+
+Distância T : 34
+
+Algoritmo n logn
+Resposta: A = -2130980387 B = -2130980353
+Tempo total de execução: 902
+
+Algoritmo n²
+Resposta: A = -2130980387 B = -2130980353
+Tempo total de execução: 68508
+
+Distância T : 35
+
+Algoritmo n logn
+Resposta: A = -2144396523 B = -2144396488
+Tempo total de execução: 916
+
+Algoritmo n²
+Resposta: A = -2144396523 B = -2144396488
+Tempo total de execução: 13806
+
+Distância T : 36
+
+Algoritmo n logn
+Resposta: A = -2138550082 B = -2138550046
+Tempo total de execução: 1182
+
+Algoritmo n²
+Resposta: A = -2138550082 B = -2138550046
+Tempo total de execução: 37327
+
+Distância T : 37
+
+Algoritmo n logn
+Resposta: A = -2137618983 B = -2137618946
+Tempo total de execução: 882
+
+Algoritmo n²
+Resposta: A = -2137618983 B = -2137618946
+Tempo total de execução: 40150
+
+Distância T : 38
+
+Algoritmo n logn
+Resposta: A = -2040760927 B = -2040760889
+Tempo total de execução: 921
+
+Algoritmo n²
+Resposta: A = -2040760927 B = -2040760889
+Tempo total de execução: 421030
+
+Distância T : 39
+
+Algoritmo n logn
+Resposta: A = -2089361076 B = -2089361037
+Tempo total de execução: 892
+
+Algoritmo n²
+Resposta: A = -2089361076 B = -2089361037
+Tempo total de execução: 231023
+
+Distância T : 40
+
+Algoritmo n logn
+Resposta: A = -2134583406 B = -2134583366
+Tempo total de execução: 880
+
+Algoritmo n²
+Resposta: A = -2134583406 B = -2134583366
+Tempo total de execução: 51089
+
+Distância T : 41
+
+Algoritmo n logn
+Resposta: A = -2120717570 B = -2120717529
+Tempo total de execução: 892
+
+Algoritmo n²
+Resposta: A = -2120717570 B = -2120717529
+Tempo total de execução: 97719
+
+Distância T : 42
+
+Algoritmo n logn
+Resposta: A = -2138514516 B = -2138514474
+Tempo total de execução: 847
+
+Algoritmo n²
+Resposta: A = -2138514516 B = -2138514474
+Tempo total de execução: 33700
+
+Distância T : 43
+
+Algoritmo n logn
+Resposta: A = -2139950074 B = -2139950031
+Tempo total de execução: 852
+
+Algoritmo n²
+Resposta: A = -2139950074 B = -2139950031
+Tempo total de execução: 28551
+
+Distância T : 44
+
+Algoritmo n logn
+Resposta: A = -2119020125 B = -2119020081
+Tempo total de execução: 853
+
+Algoritmo n²
+Resposta: A = -2119020125 B = -2119020081
+Tempo total de execução: 104473
+
+Distância T : 45
+
+Algoritmo n logn
+Resposta: A = -2137100186 B = -2137100141
+Tempo total de execução: 854
+
+Algoritmo n²
+Resposta: A = -2137100186 B = -2137100141
+Tempo total de execução: 39402
+
+Distância T : 46
+
+Algoritmo n logn
+Resposta: A = -2135449012 B = -2135448966
+Tempo total de execução: 851
+
+Algoritmo n²
+Resposta: A = -2135449012 B = -2135448966
+Tempo total de execução: 44862
+
+Distância T : 47
+
+Algoritmo n logn
+Resposta: A = -2121580695 B = -2121580648
+Tempo total de execução: 852
+
+Algoritmo n²
+Resposta: A = -2121580695 B = -2121580648
+Tempo total de execução: 94148
+
+Distância T : 48
+
+Algoritmo n logn
+Resposta: A = -2124617867 B = -2124617819
+Tempo total de execução: 854
+
+Algoritmo n²
+Resposta: A = -2124617867 B = -2124617819
+Tempo total de execução: 95501
+
+Distância T : 49
+
+Algoritmo n logn
+Resposta: A = -2117921385 B = -2117921336
+Tempo total de execução: 1321
+
+Algoritmo n²
+Resposta: A = -2117921385 B = -2117921336
+Tempo total de execução: 146462
+
+Distância T : 50
+
+Algoritmo n logn
+Resposta: A = -2142978364 B = -2142978314
+Tempo total de execução: 1422
+
+Algoritmo n²
+Resposta: A = -2142978364 B = -2142978314
+Tempo total de execução: 26933
+
+Distância T : 51
+
+Algoritmo n logn
+Resposta: A = -2135112500 B = -2135112449
+Tempo total de execução: 1015
+
+Algoritmo n²
+Resposta: A = -2135112500 B = -2135112449
+Tempo total de execução: 59956
+
+Distância T : 52
+
+Algoritmo n logn
+Resposta: A = -2137360445 B = -2137360393
+Tempo total de execução: 968
+
+Algoritmo n²
+Resposta: A = -2137360445 B = -2137360393
+Tempo total de execução: 52971
+
+Distância T : 53
+
+Algoritmo n logn
+Resposta: A = -2101761746 B = -2101761693
+Tempo total de execução: 1011
+
+Algoritmo n²
+Resposta: A = -2101761746 B = -2101761693
+Tempo total de execução: 219860
+
+Distância T : 54
+
+Algoritmo n logn
+Resposta: A = -2127705092 B = -2127705038
+Tempo total de execução: 1035
+
+Algoritmo n²
+Resposta: A = -2127705092 B = -2127705038
+Tempo total de execução: 92888
+
+Distância T : 55
+
+Algoritmo n logn
+Resposta: A = -2144547632 B = -2144547577
+Tempo total de execução: 977
+
+Algoritmo n²
+Resposta: A = -2144547632 B = -2144547577
+Tempo total de execução: 15008
+
+Distância T : 56
+
+Algoritmo n logn
+Resposta: A = -2131080684 B = -2131080628
+Tempo total de execução: 1002
+
+Algoritmo n²
+Resposta: A = -2131080684 B = -2131080628
+Tempo total de execução: 78539
+
+Distância T : 57
+
+Algoritmo n logn
+Resposta: A = -2143965580 B = -2143965523
+Tempo total de execução: 986
+
+Algoritmo n²
+Resposta: A = -2143965580 B = -2143965523
+Tempo total de execução: 18007
+
+Distância T : 58
+
+Algoritmo n logn
+Resposta: A = -2147439014 B = -2147438956
+Tempo total de execução: 999
+
+Algoritmo n²
+Resposta: A = -2147439014 B = -2147438956
+Tempo total de execução: 1258
+
+Distância T : 59
+
+Algoritmo n logn
+Resposta: A = -2112511571 B = -2112511512
+Tempo total de execução: 996
+
+Algoritmo n²
+Resposta: A = -2112511571 B = -2112511512
+Tempo total de execução: 173225
+
+Distância T : 60
+
+Algoritmo n logn
+Resposta: A = -2136535177 B = -2136535117
+Tempo total de execução: 976
+
+Algoritmo n²
+Resposta: A = -2136535177 B = -2136535117
+Tempo total de execução: 49991
+
+Distância T : 61
+
+Algoritmo n logn
+Resposta: A = -2145254147 B = -2145254086
+Tempo total de execução: 1167
+
+Algoritmo n²
+Resposta: A = -2145254147 B = -2145254086
+Tempo total de execução: 10992
+
+Distância T : 62
+
+Algoritmo n logn
+Resposta: A = -2107343646 B = -2107343584
+Tempo total de execução: 970
+
+Algoritmo n²
+Resposta: A = -2107343646 B = -2107343584
+Tempo total de execução: 179771
+
+Distância T : 63
+
+Algoritmo n logn
+Resposta: A = -2130518984 B = -2130518921
+Tempo total de execução: 958
+
+Algoritmo n²
+Resposta: A = -2130518984 B = -2130518921
+Tempo total de execução: 81522
+
+Distância T : 64
+
+Algoritmo n logn
+Resposta: A = -2147179483 B = -2147179419
+Tempo total de execução: 1004
+
+Algoritmo n²
+Resposta: A = -2147179483 B = -2147179419
+Tempo total de execução: 2301
+
+Distância T : 65
+
+Algoritmo n logn
+Resposta: A = -2147377113 B = -2147377048
+Tempo total de execução: 969
+
+Algoritmo n²
+Resposta: A = -2147377113 B = -2147377048
+Tempo total de execução: 1446
+
+Distância T : 66
+
+Algoritmo n logn
+Resposta: A = -2113738985 B = -2113738919
+Tempo total de execução: 967
+
+Algoritmo n²
+Resposta: A = -2113738985 B = -2113738919
+Tempo total de execução: 138393
+
+Distância T : 67
+
+Algoritmo n logn
+Resposta: A = -2114933660 B = -2114933593
+Tempo total de execução: 889
+
+Algoritmo n²
+Resposta: A = -2114933660 B = -2114933593
+Tempo total de execução: 158922
+
+Distância T : 68
+
+Algoritmo n logn
+Resposta: A = -2132736005 B = -2132735937
+Tempo total de execução: 1183
+
+Algoritmo n²
+Resposta: A = -2132736005 B = -2132735937
+Tempo total de execução: 71037
+
+Distância T : 69
+
+Algoritmo n logn
+Resposta: A = -2141684996 B = -2141684927
+Tempo total de execução: 1006
+
+Algoritmo n²
+Resposta: A = -2141684996 B = -2141684927
+Tempo total de execução: 27153
+
+Distância T : 70
+
+Algoritmo n logn
+Resposta: A = -2138680182 B = -2138680112
+Tempo total de execução: 976
+
+Algoritmo n²
+Resposta: A = -2138680182 B = -2138680112
+Tempo total de execução: 40240
+
+Distância T : 71
+
+Algoritmo n logn
+Resposta: A = -2134398543 B = -2134398472
+Tempo total de execução: 1017
+
+Algoritmo n²
+Resposta: A = -2134398543 B = -2134398472
+Tempo total de execução: 68970
+
+Distância T : 72
+
+Algoritmo n logn
+Resposta: A = -2142979490 B = -2142979418
+Tempo total de execução: 957
+
+Algoritmo n²
+Resposta: A = -2142979490 B = -2142979418
+Tempo total de execução: 21622
+
+Distância T : 73
+
+Algoritmo n logn
+Resposta: A = -2130145645 B = -2130145572
+Tempo total de execução: 1023
+
+Algoritmo n²
+Resposta: A = -2130145645 B = -2130145572
+Tempo total de execução: 80546
+
+Distância T : 74
+
+Algoritmo n logn
+Resposta: A = -2122688029 B = -2122687955
+Tempo total de execução: 1048
+
+Algoritmo n²
+Resposta: A = -2122688029 B = -2122687955
+Tempo total de execução: 108556
+
+Distância T : 75
+
+Algoritmo n logn
+Resposta: A = -2141864954 B = -2141864879
+Tempo total de execução: 1009
+
+Algoritmo n²
+Resposta: A = -2141864954 B = -2141864879
+Tempo total de execução: 26391
+
+Distância T : 76
+
+Algoritmo n logn
+Resposta: A = -2141237196 B = -2141237120
+Tempo total de execução: 983
+
+Algoritmo n²
+Resposta: A = -2141237196 B = -2141237120
+Tempo total de execução: 32300
+
+Distância T : 77
+
+Algoritmo n logn
+Resposta: A = -2118955914 B = -2118955837
+Tempo total de execução: 880
+
+Algoritmo n²
+Resposta: A = -2118955914 B = -2118955837
+Tempo total de execução: 155069
+
+Distância T : 78
+
+Algoritmo n logn
+Resposta: A = -2138000495 B = -2138000417
+Tempo total de execução: 958
+
+Algoritmo n²
+Resposta: A = -2138000495 B = -2138000417
+Tempo total de execução: 41910
+
+Distância T : 79
+
+Algoritmo n logn
+Resposta: A = -2140182778 B = -2140182699
+Tempo total de execução: 1031
+
+Algoritmo n²
+Resposta: A = -2140182778 B = -2140182699
+Tempo total de execução: 32118
+
+Distância T : 80
+
+Algoritmo n logn
+Resposta: A = -2102195796 B = -2102195716
+Tempo total de execução: 938
+
+Algoritmo n²
+Resposta: A = -2102195796 B = -2102195716
+Tempo total de execução: 212955
+
+Distância T : 81
+
+Algoritmo n logn
+Resposta: A = -2147314152 B = -2147314071
+Tempo total de execução: 1090
+
+Algoritmo n²
+Resposta: A = -2147314152 B = -2147314071
+Tempo total de execução: 1919
+
+Distância T : 82
+
+Algoritmo n logn
+Resposta: A = -2144821244 B = -2144821162
+Tempo total de execução: 975
+
+Algoritmo n²
+Resposta: A = -2144821244 B = -2144821162
+Tempo total de execução: 13422
+
+Distância T : 83
+
+Algoritmo n logn
+Resposta: A = -2141023307 B = -2141023224
+Tempo total de execução: 991
+
+Algoritmo n²
+Resposta: A = -2141023307 B = -2141023224
+Tempo total de execução: 30940
+
+Distância T : 84
+
+Algoritmo n logn
+Resposta: A = -2125650887 B = -2125650803
+Tempo total de execução: 962
+
+Algoritmo n²
+Resposta: A = -2125650887 B = -2125650803
+Tempo total de execução: 96769
+
+Distância T : 85
+
+Algoritmo n logn
+Resposta: A = -2146026119 B = -2146026034
+Tempo total de execução: 956
+
+Algoritmo n²
+Resposta: A = -2146026119 B = -2146026034
+Tempo total de execução: 7529
+
+Distância T : 86
+
+Algoritmo n logn
+Resposta: A = -2138290563 B = -2138290477
+Tempo total de execução: 965
+
+Algoritmo n²
+Resposta: A = -2138290563 B = -2138290477
+Tempo total de execução: 41453
+
+Distância T : 87
+
+Algoritmo n logn
+Resposta: A = -2143496081 B = -2143495994
+Tempo total de execução: 969
+
+Algoritmo n²
+Resposta: A = -2143496081 B = -2143495994
+Tempo total de execução: 19474
+
+Distância T : 88
+
+Algoritmo n logn
+Resposta: A = -2133578708 B = -2133578620
+Tempo total de execução: 981
+
+Algoritmo n²
+Resposta: A = -2133578708 B = -2133578620
+Tempo total de execução: 62462
+
+Distância T : 89
+
+Algoritmo n logn
+Resposta: A = -2126353762 B = -2126353673
+Tempo total de execução: 1001
+
+Algoritmo n²
+Resposta: A = -2126353762 B = -2126353673
+Tempo total de execução: 93921
+
+Distância T : 90
+
+Algoritmo n logn
+Resposta: A = -2138233784 B = -2138233694
+Tempo total de execução: 1065
+
+Algoritmo n²
+Resposta: A = -2138233784 B = -2138233694
+Tempo total de execução: 41741
+
+Distância T : 91
+
+Algoritmo n logn
+Resposta: A = -2126151509 B = -2126151418
+Tempo total de execução: 975
+
+Algoritmo n²
+Resposta: A = -2126151509 B = -2126151418
+Tempo total de execução: 94999
+
+Distância T : 92
+
+Algoritmo n logn
+Resposta: A = -2135689888 B = -2135689796
+Tempo total de execução: 896
+
+Algoritmo n²
+Resposta: A = -2135689888 B = -2135689796
+Tempo total de execução: 45602
+
+Distância T : 93
+
+Algoritmo n logn
+Resposta: A = -2113945019 B = -2113944926
+Tempo total de execução: 872
+
+Algoritmo n²
+Resposta: A = -2113945019 B = -2113944926
+Tempo total de execução: 126781
+
+Distância T : 94
+
+Algoritmo n logn
+Resposta: A = -2142403658 B = -2142403564
+Tempo total de execução: 879
+
+Algoritmo n²
+Resposta: A = -2142403658 B = -2142403564
+Tempo total de execução: 21060
+
+Distância T : 95
+
+Algoritmo n logn
+Resposta: A = -2124818564 B = -2124818469
+Tempo total de execução: 884
+
+Algoritmo n²
+Resposta: A = -2124818564 B = -2124818469
+Tempo total de execução: 90613
+
+Distância T : 96
+
+Algoritmo n logn
+Resposta: A = -2058324848 B = -2058324752
+Tempo total de execução: 977
+
+Algoritmo n²
+Resposta: A = -2058324848 B = -2058324752
+Tempo total de execução: 411462
+
+Distância T : 97
+
+Algoritmo n logn
+Resposta: A = -2146599389 B = -2146599292
+Tempo total de execução: 1326
+
+Algoritmo n²
+Resposta: A = -2146599389 B = -2146599292
+Tempo total de execução: 5963
+
+Distância T : 98
+
+Algoritmo n logn
+Resposta: A = -2099803871 B = -2099803773
+Tempo total de execução: 1054
+
+Algoritmo n²
+Resposta: A = -2099803871 B = -2099803773
+Tempo total de execução: 236603
+
+Distância T : 99
+
+Algoritmo n logn
+Resposta: A = -2126785426 B = -2126785327
+Tempo total de execução: 1552
+
+Algoritmo n²
+Resposta: A = -2126785426 B = -2126785327
+Tempo total de execução: 92743
+
+Distância T : 100
+
+Algoritmo n logn
+Resposta: A = -2144718753 B = -2144718653
+Tempo total de execução: 1452
+
+Algoritmo n²
+Resposta: A = -2144718753 B = -2144718653
+Tempo total de execução: 13937
+
+The information about OS
+Current username: alphinos
+Name of the OS: Linux
+Version of the OS: 6.1.53-1-MANJARO
+Architecture of THe OS: amd64
+Available processors (cores): 4
+Free memory (bytes): 8
+Maximum memory (bytes): 1966
+Total memory available to JVM (bytes): 772
+physicalMemorySize: 7
+freePhysicalMemory: 263
+Este relatório foi gerado pelo computador de Carlos Veras

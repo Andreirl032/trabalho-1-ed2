@@ -1,0 +1,36 @@
+500_000 elementos
+
+Para E variando de 91 a 100:
+
+Tempo total de execução: 1033210 <-- E = 91
+
+Tempo total de execução: 1252124 <-- E = 92
+
+Tempo total de execução: 1187370 <-- E = 93
+
+Tempo total de execução: 961500 <-- E = 94
+
+Tempo total de execução: 1132687 <-- E = 95
+
+Tempo total de execução: 1306872 <-- E = 96
+
+Tempo total de execução: 1124869 <-- E = 97
+
+Tempo total de execução: 987302 <-- E = 98
+
+Tempo total de execução: 1182569 <-- E = 99
+
+Tempo total de execução: 1347756 <-- E = 100
+
+The information about OS
+Current username: alphinos
+Name of the OS: Linux
+Version of the OS: 6.1.53-1-MANJARO
+Architecture of THe OS: amd64
+Available processors (cores): 4
+Free memory (bytes): 127
+Maximum memory (bytes): 1966
+Total memory available to JVM (bytes): 187
+physicalMemorySize: 7
+freePhysicalMemory: 900
+Este relatório foi gerado pelo computador de Carlos Veras

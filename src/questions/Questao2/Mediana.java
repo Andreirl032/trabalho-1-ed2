@@ -6,22 +6,22 @@ import structs.Generics;
 
 public class Mediana {
 
-    public static double achaMediana( int[] vetor_1, int[] vetor_2 ){
-        if( vetor_1.length != vetor_2.length){
+    public static double achaMediana( Generics<?, ?>[] vector_1, Generics<?, ?>[] vector_2 ){
+        if( vector_1.length != vector_2.length){
             System.out.println("ERRO! OS VETORES DEVEM SER DE MESMO TAMANHO");
             return 1;
         }
 
-        Generics<?, ?>[] Generic_vector = new Generics[ vetor_1.length + vetor_2.length ];
+        Generics<?, ?>[] Generic_vector = new Generics[ vector_1.length + vector_2.length ];
 
-        for( int i = 0; i < vetor_1.length ; i++ ){
-            Generics< ?, ? > a = new Generics<>( i, vetor_1[i] );
-            Generics< ?, ? > b = new Generics<>( i + vetor_2.length, vetor_2[i] );
-            Generic_vector[ i ] = a;
-            Generic_vector[ i + vetor_1.length ] = b;
+        for( int i = 0; i < vector_1.length ; i++ ){
+            Generics< ?, ? > a = new Generics<>( i, vector_1[i] );
+            Generics< ?, ? > b = new Generics<>( i + vector_2.length, vector_2[i] );
+            Generic_vector[ i ] = vector_1[ i ];
+            Generic_vector[ i + vector_1.length ] = vector_2[ i ];
         }
 
-        Counting sorter = new Counting();
+        Merge sorter = new Merge();
 
         final long startTime = System.currentTimeMillis();
         sorter.sort( Generic_vector );
@@ -36,47 +36,4 @@ public class Mediana {
             return (double) Generic_vector[middle].getValue();
         }
     }
-
-    public static double achaMediana( String[] vetor_1, String[] vetor_2 ){
-        if( vetor_1.length != vetor_2.length){
-            System.out.println("ERRO! OS VETORES DEVEM SER DE MESMO TAMANHO");
-            return 1;
-        }
-
-        Generics<?, ?>[] Generic_vector = new Generics[ vetor_1.length + vetor_2.length ];
-
-        for( int i = 0; i < vetor_1.length ; i++ ){
-            Generics< ?, ? > a = new Generics<>( i, vetor_1[i] );
-            Generics< ?, ? > b = new Generics<>( i + vetor_2.length, vetor_2[i] );
-            Generic_vector[ i ] = a;
-            Generic_vector[ i + vetor_1.length ] = b;
-        }
-
-        Counting sorter = new Counting();
-
-        final long startTime = System.currentTimeMillis();
-        sorter.sort( Generic_vector );
-        final long endTime = System.currentTimeMillis();
-
-        System.out.println( "Tempo total de execução:" + ( endTime - startTime ) );
-
-        int middle = ( Generic_vector.length - 1 ) / 2;
-        if ( Generic_vector.length % 2 == 0 ){
-            return ( (double) Generic_vector[middle].getValue() + (double) Generic_vector[middle].getValue() ) / 2 ;
-        } else {
-            return (double) Generic_vector[middle].getValue();
-        }
-
-
-//        String[] vetorString = new String[vetor_1.length+vetor_2.length];
-//        for(int i=0;i<vetor_1.length;i++){
-//            vetorString[i]=vetor_1[i];
-//        }
-//        for(int i=0;i<vetor_1.length;i++){
-//            vetorString[i+vetor_1.length+1]=vetor_2[i];
-//        }
-//
-////        ordenarVetorString(vetorString);
-    }
-
 }

@@ -1,5 +1,6 @@
 package questions.Questao3;
 
+import Ord.util.Report;
 import structs.Generics;
 
 import java.util.Random;
@@ -11,32 +12,38 @@ public class Main {
         Random random = new Random();
 
         for ( int i = 0; i < vector.length; i++ ){
-            vector[ i ] = new Generics<Integer, Integer >( Math.abs( random.nextInt( 0, size) ), Math.abs( random.nextInt( 0, size ) ) );
+            vector[ i ] = new Generics<Integer, Integer >( random.nextInt(  ) , random.nextInt(  ) );
         }
 
         return vector;
     }
     public static void main(String[] args) {
-        Generics<?, ?>[] vector = genVector( 2_000_000 );
+        Generics<?, ?>[] vector = genVector( 1_000_000 );
+        System.out.println("Achar a distância com 2_000_000 elementos no vetor");
+        Generics<?, Integer>[] answer;
 
-        Random random = new Random();
-
-        int T, luck;
+        int T;
         for ( int i = 0; i <= 100; i++ ){
             T = i;
-            luck = random.nextInt(1, 2);
 
-            final long startTime = System.currentTimeMillis();
-            if ( luck == 1 ){
-                DistT.n_logn( ( Generics<?, Integer>[] ) vector, T );
-            } else {
-                DistT.n_2( ( Generics<?, Integer>[] ) vector, T );
-            }
-//            DistT.n_2( ( Generics<?, Integer>[] ) vector, 2_000_001 );
-            final long endTime = System.currentTimeMillis();
+            System.out.println("\nDistância T : " + T);
 
-            System.out.println( "\nTempo total de execução: " + ( endTime - startTime ) );
+            long startTime = System.currentTimeMillis();
+            answer = DistT.n_logn( ( Generics<?, Integer>[] ) vector, T );
+            long endTime = System.currentTimeMillis();
+            System.out.println( "\nAlgoritmo n logn" );
+            if ( answer != null)
+                System.out.println( "Resposta: A = " + answer[0].getValue() + " B = " + answer[1].getValue() );
+            System.out.println( "Tempo total de execução: " + ( endTime - startTime ) );
+
+            startTime = System.currentTimeMillis();
+            answer = DistT.n_2( ( Generics<?, Integer>[] ) vector, T );
+            endTime = System.currentTimeMillis();
+            System.out.println( "\nAlgoritmo n²" );
+            if ( answer != null)
+                System.out.println( "Resposta: A = " + answer[0].getValue() + " B = " + answer[1].getValue() );
+            System.out.println( "Tempo total de execução: " + ( endTime - startTime ) );
         }
-        DistT.n_2( ( Generics<?, Integer>[] ) vector, 2_000_001 );
+        Report.soft_hard_content();
     }
 }
