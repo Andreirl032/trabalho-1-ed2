@@ -23,14 +23,15 @@ public class Main {
         Generics<?, ?>[] vector;
         BHSI sorter = new BHSI();
 
-        Random random = new Random();
-
         for ( int i = 91; i <= 100; i++ ){
             vector = genVector( 500_000 );
 
             final long startTime = System.currentTimeMillis();
             sorter.porcento_E( vector, i );
             final long endTime = System.currentTimeMillis();
+
+            System.out.println( "Movimentações: " + sorter.getMovements() );
+            System.out.println( "Comparações: " + sorter.getComparisons() );
 
             System.out.println( "\nTempo total de execução: " + ( endTime - startTime ) );
         }

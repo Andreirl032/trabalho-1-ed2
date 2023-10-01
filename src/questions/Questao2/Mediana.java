@@ -19,6 +19,8 @@ public class Mediana {
 
         Merge sorter = new Merge();
 
+        sorter.sort( Generic_vector );
+
         int middle = ( Generic_vector.length - 1 ) / 2;
         if ( Generic_vector.length % 2 == 0 ){
             if ( Generic_vector[middle].getValue() instanceof String  ){

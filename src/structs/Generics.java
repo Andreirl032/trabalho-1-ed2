@@ -25,11 +25,11 @@ public class Generics<Key, Value> implements Comparable< Generics<?, ?> > { // F
     public int compareTo(Generics<?, ?> o) {
         // Teste do tipo do valor object
         if (this.value instanceof Integer) {
-            return ((Integer) this.value).compareTo((Integer) o.value);
+            return ((Integer) this.value).compareTo((Integer) o.getValue() );
         } else if (this.value instanceof Double) {
-            return ((Double) this.value).compareTo((Double) o.value);
+            return ((Double) this.value).compareTo((Double) o.getValue());
         }
 
-        return ((String) this.value).compareTo((String) o.value);
+        return ((String) this.value).compareTo((String) o.getValue() );
     }
 }

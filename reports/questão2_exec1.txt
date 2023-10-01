@@ -1,3 +1,9 @@
+Mediana
+
+O algoritmo de ordenação utilizado para a ordenação dos elementos resultantes da junção dos dois vetores foi o merge sort.
+Como o merge sort possui complexidade nlogn e todo o processo de cálculo das medianas não passa de linear (n),
+o algortimo como um todo é nlogn.
+
 Vetor de inteiros
 Mediana: 7.35326703E8
 Tempo total de execução: 486

@@ -1,0 +1,65 @@
+BHSI-Sort
+
+
+E = 91
+Movimentações: 55389483394
+Comparações: 55364983269
+Tempo total de execução: 1115626
+
+E = 92
+Movimentações: 55554031961
+Comparações: 55516531758
+Tempo total de execução: 1005935
+
+E = 93
+Movimentações: 55489624506
+Comparações: 55472124423
+Tempo total de execução: 1031161
+
+E = 94
+Movimentações: 55540676545
+Comparações: 55532176516
+Tempo total de execução: 983066
+
+E = 95
+Movimentações: 55462763475
+Comparações: 55453763443
+Tempo total de execução: 1036851
+
+E = 96
+Movimentações: 55478893972
+Comparações: 55461393889
+Tempo total de execução: 1039553
+
+E = 97
+Movimentações: 55409922354
+Comparações: 55377422181
+Tempo total de execução: 1053202
+
+E = 98
+Movimentações: 55407989069
+Comparações: 55404489070
+Tempo total de execução: 1042811
+
+E = 99
+Movimentações: 55513306714
+Comparações: 55486806577
+Tempo total de execução: 1042570
+
+E = 100
+Movimentações: 55331340924
+Comparações: 55329340932
+Tempo total de execução: 1037622
+
+The information about OS
+Current username: alphinos
+Name of the OS: Linux
+Version of the OS: 6.1.53-1-MANJARO
+Architecture of THe OS: amd64
+Available processors (cores): 4
+Free memory (bytes): 105
+Maximum memory (bytes): 1966
+Total memory available to JVM (bytes): 164
+physicalMemorySize: 7
+freePhysicalMemory: 4047
+Este relatório foi gerado pelo computador de Carlos Veras

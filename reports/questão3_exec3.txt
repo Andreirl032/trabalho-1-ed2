@@ -1,0 +1,1432 @@
+Achar a distância com 1_000_000 elementos no vetor
+
+Para este cenário, foi usado o merge sort. Todos os elementos foram gerados de forma aleatória.
+Ao fazer com que as instâncias não tenham bom funcionamento, o trecho de algoritmo para encontrar o elemento a uma distância T passa a ter bem mais relevância.
+Também foram adicionados o total de movimentações e comparações realizados por cada algoritmo.
+
+Distância T : 0
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103757124
+Comparações da ordenação e de busca: 58577857
+Resposta: A = -2147478746 B = -2147478746
+Tempo total de execução: 1594
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 10792789192
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2101250854 B = -2101250854
+Tempo total de execução: 395693
+
+Distância T : 1
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103786098
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2105861118 B = -2105861117
+Tempo total de execução: 928
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 9761786099
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2105861118 B = -2105861117
+Tempo total de execução: 315425
+
+Distância T : 2
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103763478
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2138513142 B = -2138513140
+Tempo total de execução: 977
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2221763479
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2138513142 B = -2138513140
+Tempo total de execução: 44953
+
+Distância T : 3
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103757424
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146963293 B = -2146963290
+Tempo total de execução: 961
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 203757425
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146963293 B = -2146963290
+Tempo total de execução: 3043
+
+Distância T : 4
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103764219
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2137477383 B = -2137477379
+Tempo total de execução: 962
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2468764220
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2137477383 B = -2137477379
+Tempo total de execução: 51241
+
+Distância T : 5
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103766175
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134678346 B = -2134678341
+Tempo total de execução: 970
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 3120766176
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134678346 B = -2134678341
+Tempo total de execução: 65339
+
+Distância T : 6
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103774092
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2123233773 B = -2123233767
+Tempo total de execução: 969
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 5759774093
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2123233773 B = -2123233767
+Tempo total de execução: 128169
+
+Distância T : 7
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103780602
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2113999015 B = -2113999008
+Tempo total de execução: 952
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 7929780603
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2113999015 B = -2113999008
+Tempo total de execução: 195077
+
+Distância T : 8
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103758783
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2145212229 B = -2145212221
+Tempo total de execução: 1071
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 656758784
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2145212229 B = -2145212221
+Tempo total de execução: 15333
+
+Distância T : 9
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103759926
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2143551775 B = -2143551766
+Tempo total de execução: 977
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1037759927
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2143551775 B = -2143551766
+Tempo total de execução: 24034
+
+Distância T : 10
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103757433
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146960288 B = -2146960278
+Tempo total de execução: 1079
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 206757434
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146960288 B = -2146960278
+Tempo total de execução: 3805
+
+Distância T : 11
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103758624
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2145455451 B = -2145455440
+Tempo total de execução: 1042
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 603758625
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2145455451 B = -2145455440
+Tempo total de execução: 12745
+
+Distância T : 12
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103761318
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2141477863 B = -2141477851
+Tempo total de execução: 958
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1501761319
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2141477863 B = -2141477851
+Tempo total de execução: 32176
+
+Distância T : 13
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103768653
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2131051040 B = -2131051027
+Tempo total de execução: 995
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 3946768654
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2131051040 B = -2131051027
+Tempo total de execução: 84462
+
+Distância T : 14
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103765206
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136031504 B = -2136031490
+Tempo total de execução: 974
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2797765207
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136031504 B = -2136031490
+Tempo total de execução: 59843
+
+Distância T : 15
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103791804
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2097610736 B = -2097610721
+Tempo total de execução: 1081
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 11663791805
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2097610736 B = -2097610721
+Tempo total de execução: 258017
+
+Distância T : 16
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103774542
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2122611376 B = -2122611360
+Tempo total de execução: 927
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 5909774543
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2122611376 B = -2122611360
+Tempo total de execução: 119912
+
+Distância T : 17
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103764918
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136459894 B = -2136459877
+Tempo total de execução: 1007
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2701764919
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136459894 B = -2136459877
+Tempo total de execução: 62892
+
+Distância T : 18
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103775094
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2121853829 B = -2121853811
+Tempo total de execução: 997
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 6093775095
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2121853829 B = -2121853811
+Tempo total de execução: 137226
+
+Distância T : 19
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103770705
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2128091323 B = -2128091304
+Tempo total de execução: 1413
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 4630770706
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2128091323 B = -2128091304
+Tempo total de execução: 104376
+
+Distância T : 20
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103788147
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2102767541 B = -2102767521
+Tempo total de execução: 957
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 10444788148
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2102767541 B = -2102767521
+Tempo total de execução: 250148
+
+Distância T : 21
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103770207
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2128868808 B = -2128868787
+Tempo total de execução: 1093
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 4464770208
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2128868808 B = -2128868787
+Tempo total de execução: 106982
+
+Distância T : 22
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103785705
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2106459655 B = -2106459633
+Tempo total de execução: 1067
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 9630785706
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2106459655 B = -2106459633
+Tempo total de execução: 242346
+
+Distância T : 23
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103850517
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2013049025 B = -2013049002
+Tempo total de execução: 1165
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 31234850518
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2013049025 B = -2013049002
+Tempo total de execução: 765409
+
+Distância T : 24
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103767150
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2133277916 B = -2133277892
+Tempo total de execução: 1088
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 3445767151
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2133277916 B = -2133277892
+Tempo total de execução: 81182
+
+Distância T : 25
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103768365
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2131457438 B = -2131457413
+Tempo total de execução: 986
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 3850768366
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2131457438 B = -2131457413
+Tempo total de execução: 90095
+
+Distância T : 26
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103786896
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2104602475 B = -2104602449
+Tempo total de execução: 1024
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 10027786897
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2104602475 B = -2104602449
+Tempo total de execução: 252348
+
+Distância T : 27
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103760745
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142279723 B = -2142279696
+Tempo total de execução: 1210
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1310760746
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142279723 B = -2142279696
+Tempo total de execução: 25772
+
+Distância T : 28
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103765200
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136032172 B = -2136032144
+Tempo total de execução: 910
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2795765201
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136032172 B = -2136032144
+Tempo total de execução: 56346
+
+Distância T : 29
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103773150
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2124579183 B = -2124579154
+Tempo total de execução: 1075
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 5445773151
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2124579183 B = -2124579154
+Tempo total de execução: 145004
+
+Distância T : 30
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103762764
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2139512773 B = -2139512743
+Tempo total de execução: 948
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1983762765
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2139512773 B = -2139512743
+Tempo total de execução: 39054
+
+Distância T : 31
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103803543
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2080947686 B = -2080947655
+Tempo total de execução: 950
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 15576803544
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2080947686 B = -2080947655
+Tempo total de execução: 328670
+
+Distância T : 32
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103757379
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2147051678 B = -2147051646
+Tempo total de execução: 1019
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 188757380
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2147051678 B = -2147051646
+Tempo total de execução: 2994
+
+Distância T : 33
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103809801
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2071788970 B = -2071788937
+Tempo total de execução: 1134
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 17662809802
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2071788970 B = -2071788937
+Tempo total de execução: 517680
+
+Distância T : 34
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103765098
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136146924 B = -2136146890
+Tempo total de execução: 1303
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2761765099
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136146924 B = -2136146890
+Tempo total de execução: 76386
+
+Distância T : 35
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103757961
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146230590 B = -2146230555
+Tempo total de execução: 1423
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 382757962
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146230590 B = -2146230555
+Tempo total de execução: 9485
+
+Distância T : 36
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103760397
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142833217 B = -2142833181
+Tempo total de execução: 1092
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1194760398
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142833217 B = -2142833181
+Tempo total de execução: 32192
+
+Distância T : 37
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103757544
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146815933 B = -2146815896
+Tempo total de execução: 1316
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 243757545
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146815933 B = -2146815896
+Tempo total de execução: 6099
+
+Distância T : 38
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103771779
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2126584822 B = -2126584784
+Tempo total de execução: 1208
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 4988771780
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2126584822 B = -2126584784
+Tempo total de execução: 152128
+
+Distância T : 39
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103760544
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142566835 B = -2142566796
+Tempo total de execução: 1476
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1243760545
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142566835 B = -2142566796
+Tempo total de execução: 42002
+
+Distância T : 40
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103771179
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2127401948 B = -2127401908
+Tempo total de execução: 1602
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 4788771180
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2127401948 B = -2127401908
+Tempo total de execução: 137706
+
+Distância T : 41
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103774749
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2122336569 B = -2122336528
+Tempo total de execução: 967
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 5978774750
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2122336569 B = -2122336528
+Tempo total de execução: 146147
+
+Distância T : 42
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103759380
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2144348095 B = -2144348053
+Tempo total de execução: 955
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 855759381
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2144348095 B = -2144348053
+Tempo total de execução: 15962
+
+Distância T : 43
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103783194
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2110099363 B = -2110099320
+Tempo total de execução: 933
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 8793783195
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2110099363 B = -2110099320
+Tempo total de execução: 173329
+
+Distância T : 44
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103772364
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2125794792 B = -2125794748
+Tempo total de execução: 1019
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 5183772365
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2125794792 B = -2125794748
+Tempo total de execução: 101535
+
+Distância T : 45
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103758012
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146173946 B = -2146173901
+Tempo total de execução: 943
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 399758013
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146173946 B = -2146173901
+Tempo total de execução: 6800
+
+Distância T : 46
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103781169
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2113187402 B = -2113187356
+Tempo total de execução: 1001
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 8118781170
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2113187402 B = -2113187356
+Tempo total de execução: 173523
+
+Distância T : 47
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103824498
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2050454078 B = -2050454031
+Tempo total de execução: 1499
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 22561824499
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2050454078 B = -2050454031
+Tempo total de execução: 531631
+
+Distância T : 48
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103762050
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2140421989 B = -2140421941
+Tempo total de execução: 1075
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1745762051
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2140421989 B = -2140421941
+Tempo total de execução: 40585
+
+Distância T : 49
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103782036
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2111861143 B = -2111861094
+Tempo total de execução: 1052
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 8407782037
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2111861143 B = -2111861094
+Tempo total de execução: 224940
+
+Distância T : 50
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103778115
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2117530133 B = -2117530083
+Tempo total de execução: 1149
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 7100778116
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2117530133 B = -2117530083
+Tempo total de execução: 187673
+
+Distância T : 51
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103764237
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2137461546 B = -2137461495
+Tempo total de execução: 1012
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2474764238
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2137461546 B = -2137461495
+Tempo total de execução: 57200
+
+Distância T : 52
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103765752
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2135301839 B = -2135301787
+Tempo total de execução: 1254
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2979765753
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2135301839 B = -2135301787
+Tempo total de execução: 71689
+
+Distância T : 53
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103768878
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2130765968 B = -2130765915
+Tempo total de execução: 1015
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 4021768879
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2130765968 B = -2130765915
+Tempo total de execução: 97083
+
+Distância T : 54
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103779081
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2116274234 B = -2116274180
+Tempo total de execução: 1110
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 7422779082
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2116274234 B = -2116274180
+Tempo total de execução: 177113
+
+Distância T : 55
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103771683
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2126752345 B = -2126752290
+Tempo total de execução: 1052
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 4956771684
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2126752345 B = -2126752290
+Tempo total de execução: 117433
+
+Distância T : 56
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103777857
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2117879686 B = -2117879630
+Tempo total de execução: 1235
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 7014777858
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2117879686 B = -2117879630
+Tempo total de execução: 166584
+
+Distância T : 57
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103757616
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146735001 B = -2146734944
+Tempo total de execução: 1143
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 267757617
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146735001 B = -2146734944
+Tempo total de execução: 5123
+
+Distância T : 58
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103787694
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2103522148 B = -2103522090
+Tempo total de execução: 1108
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 10293787695
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2103522148 B = -2103522090
+Tempo total de execução: 251604
+
+Distância T : 59
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103764504
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2137007463 B = -2137007404
+Tempo total de execução: 1017
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2563764505
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2137007463 B = -2137007404
+Tempo total de execução: 62681
+
+Distância T : 60
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103766370
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134393834 B = -2134393774
+Tempo total de execução: 1178
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 3185766371
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134393834 B = -2134393774
+Tempo total de execução: 74318
+
+Distância T : 61
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103760328
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142935353 B = -2142935292
+Tempo total de execução: 1022
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1171760329
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142935353 B = -2142935292
+Tempo total de execução: 26093
+
+Distância T : 62
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103763097
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2139088642 B = -2139088580
+Tempo total de execução: 1055
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2094763098
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2139088642 B = -2139088580
+Tempo total de execução: 48549
+
+Distância T : 63
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103761963
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2140560032 B = -2140559969
+Tempo total de execução: 1029
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1716761964
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2140560032 B = -2140559969
+Tempo total de execução: 40045
+
+Distância T : 64
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103767303
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2133032910 B = -2133032846
+Tempo total de execução: 1050
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 3496767304
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2133032910 B = -2133032846
+Tempo total de execução: 82731
+
+Distância T : 65
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103760343
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142911864 B = -2142911799
+Tempo total de execução: 1039
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1176760344
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142911864 B = -2142911799
+Tempo total de execução: 27438
+
+Distância T : 66
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103758234
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2145895288 B = -2145895222
+Tempo total de execução: 1031
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 473758235
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2145895288 B = -2145895222
+Tempo total de execução: 10383
+
+Distância T : 67
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103759512
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2144137119 B = -2144137052
+Tempo total de execução: 1014
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 899759513
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2144137119 B = -2144137052
+Tempo total de execução: 22811
+
+Distância T : 68
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103774500
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2122667701 B = -2122667633
+Tempo total de execução: 1425
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 5895774501
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2122667701 B = -2122667633
+Tempo total de execução: 163308
+
+Distância T : 69
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103811331
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2069466941 B = -2069466872
+Tempo total de execução: 1127
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 18172811332
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2069466941 B = -2069466872
+Tempo total de execução: 479378
+
+Distância T : 70
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103762980
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2139228200 B = -2139228130
+Tempo total de execução: 1146
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2055762981
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2139228200 B = -2139228130
+Tempo total de execução: 72955
+
+Distância T : 71
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103770015
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2129159011 B = -2129158940
+Tempo total de execução: 1307
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 4400770016
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2129159011 B = -2129158940
+Tempo total de execução: 149990
+
+Distância T : 72
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103772550
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2125485598 B = -2125485526
+Tempo total de execução: 1381
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 5245772551
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2125485598 B = -2125485526
+Tempo total de execução: 190431
+
+Distância T : 73
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103778568
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2116920996 B = -2116920923
+Tempo total de execução: 1162
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 7251778569
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2116920996 B = -2116920923
+Tempo total de execução: 149688
+
+Distância T : 74
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103761213
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2141569703 B = -2141569629
+Tempo total de execução: 915
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1466761214
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2141569703 B = -2141569629
+Tempo total de execução: 28133
+
+Distância T : 75
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103766406
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134362920 B = -2134362845
+Tempo total de execução: 911
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 3197766407
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134362920 B = -2134362845
+Tempo total de execução: 61839
+
+Distância T : 76
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103758060
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146111915 B = -2146111839
+Tempo total de execução: 928
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 415758061
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146111915 B = -2146111839
+Tempo total de execução: 7067
+
+Distância T : 77
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103761012
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2141819914 B = -2141819837
+Tempo total de execução: 939
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1399761013
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2141819914 B = -2141819837
+Tempo total de execução: 26635
+
+Distância T : 78
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103766208
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134618331 B = -2134618253
+Tempo total de execução: 966
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 3131766209
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134618331 B = -2134618253
+Tempo total de execução: 61508
+
+Distância T : 79
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103764411
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2137211859 B = -2137211780
+Tempo total de execução: 946
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2532764412
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2137211859 B = -2137211780
+Tempo total de execução: 49225
+
+Distância T : 80
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103761942
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2140580996 B = -2140580916
+Tempo total de execução: 930
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1709761943
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2140580996 B = -2140580916
+Tempo total de execução: 32484
+
+Distância T : 81
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103760724
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142311972 B = -2142311891
+Tempo total de execução: 916
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1303760725
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142311972 B = -2142311891
+Tempo total de execução: 24555
+
+Distância T : 82
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103760037
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2143390687 B = -2143390605
+Tempo total de execução: 912
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1074760038
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2143390687 B = -2143390605
+Tempo total de execução: 20122
+
+Distância T : 83
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103764681
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136762151 B = -2136762068
+Tempo total de execução: 917
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2622764682
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136762151 B = -2136762068
+Tempo total de execução: 50918
+
+Distância T : 84
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103757598
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146745064 B = -2146744980
+Tempo total de execução: 956
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 261757599
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146745064 B = -2146744980
+Tempo total de execução: 4048
+
+Distância T : 85
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103758327
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2145790991 B = -2145790906
+Tempo total de execução: 952
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 504758328
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2145790991 B = -2145790906
+Tempo total de execução: 8937
+
+Distância T : 86
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103764996
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136352559 B = -2136352473
+Tempo total de execução: 1030
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 2727764997
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2136352559 B = -2136352473
+Tempo total de execução: 53329
+
+Distância T : 87
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103759986
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2143455398 B = -2143455311
+Tempo total de execução: 925
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1057759987
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2143455398 B = -2143455311
+Tempo total de execução: 20200
+
+Distância T : 88
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103790886
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2098934339 B = -2098934251
+Tempo total de execução: 933
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 11357790887
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2098934339 B = -2098934251
+Tempo total de execução: 223754
+
+Distância T : 89
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103780605
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2113999008 B = -2113998919
+Tempo total de execução: 927
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 7930780606
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2113999008 B = -2113998919
+Tempo total de execução: 155701
+
+Distância T : 90
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103760616
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142483102 B = -2142483012
+Tempo total de execução: 923
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1267760617
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142483102 B = -2142483012
+Tempo total de execução: 23679
+
+Distância T : 91
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103773957
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2123395634 B = -2123395543
+Tempo total de execução: 919
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 5714773958
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2123395634 B = -2123395543
+Tempo total de execução: 110578
+
+Distância T : 92
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103806276
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2076787945 B = -2076787853
+Tempo total de execução: 939
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 16487806277
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2076787945 B = -2076787853
+Tempo total de execução: 323044
+
+Distância T : 93
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103775418
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2121390825 B = -2121390732
+Tempo total de execução: 907
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 6201775419
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2121390825 B = -2121390732
+Tempo total de execução: 144779
+
+Distância T : 94
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103783527
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2109651965 B = -2109651871
+Tempo total de execução: 1377
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 8904783528
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2109651965 B = -2109651871
+Tempo total de execução: 233032
+
+Distância T : 95
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103776741
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2119539004 B = -2119538909
+Tempo total de execução: 1226
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 6642776742
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2119539004 B = -2119538909
+Tempo total de execução: 167229
+
+Distância T : 96
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103766523
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134210071 B = -2134209975
+Tempo total de execução: 1101
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 3236766524
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2134210071 B = -2134209975
+Tempo total de execução: 74677
+
+Distância T : 97
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103760883
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142049799 B = -2142049702
+Tempo total de execução: 1022
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 1356760884
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2142049799 B = -2142049702
+Tempo total de execução: 29203
+
+Distância T : 98
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103772478
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2125595199 B = -2125595101
+Tempo total de execução: 953
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 5221772479
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2125595199 B = -2125595101
+Tempo total de execução: 132958
+
+Distância T : 99
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103757934
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146267123 B = -2146267024
+Tempo total de execução: 1073
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 373757935
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2146267123 B = -2146267024
+Tempo total de execução: 8070
+
+Distância T : 100
+
+Algoritmo n logn
+Movimentações da ordenação e de busca: 103768998
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2130580552 B = -2130580452
+Tempo total de execução: 1032
+
+Algoritmo n²
+Movimentações da ordenação e de busca: 4061768999
+Comparações da ordenação e de busca: 49969281
+Resposta: A = -2130580552 B = -2130580452
+Tempo total de execução: 102185
+
+The information about OS
+Current username: alphinos
+Name of the OS: Linux
+Version of the OS: 6.1.53-1-MANJARO
+Architecture of THe OS: amd64
+Available processors (cores): 4
+Free memory (bytes): 5
+Maximum memory (bytes): 1966
+Total memory available to JVM (bytes): 771
+physicalMemorySize: 7
+freePhysicalMemory: 315
+Este relatório foi gerado pelo computador de Carlos Veras

@@ -68,7 +68,7 @@ public class Main {
         System.out.println("Mediana: " + mediana);
         System.out.println( "Tempo total de execução: " + ( endTime - startTime ) );
 
-        System.out.println("");
+        System.out.println();
 
         Report.soft_hard_content();
     }
