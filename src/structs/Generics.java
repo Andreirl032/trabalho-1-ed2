@@ -1,6 +1,6 @@
 package structs;
 
-public class Generics<Key, Value> implements Comparable<Generics<?, ?>> {
+public class Generics<Key, Value> implements Comparable< Generics<?, ?> > { // Fonte: https://github.com/uotlaf/ED2-Atividade1/blob/master/src/Estruturas/Generico.java
     private final Key key;
     private final Value value;
 

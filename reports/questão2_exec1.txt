@@ -1,0 +1,20 @@
+Vetor de inteiros
+Mediana: 7.35326703E8
+Tempo total de execução: 486
+
+Vetor de strings
+Mediana: 2790.0
+Tempo total de execução: 253
+
+The information about OS
+Current username: alphinos
+Name of the OS: Linux
+Version of the OS: 6.1.53-1-MANJARO
+Architecture of THe OS: amd64
+Available processors (cores): 4
+Free memory (bytes): 956
+Maximum memory (bytes): 1966
+Total memory available to JVM (bytes): 1383
+physicalMemorySize: 7
+freePhysicalMemory: 499
+Este relatório foi gerado pelo computador de Carlos Veras

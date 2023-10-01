@@ -1,5 +1,6 @@
 package questions.Questao2;
 
+import Ord.util.Report;
 import structs.Generics;
 
 import static questions.Questao2.Mediana.achaMediana;
@@ -46,17 +47,29 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Generics<?, ?>[] vector1 = gera_vector_inteiro( 500_000 );
-        Generics<?, ?>[] vector2 = gera_vector_inteiro( 500_000 );
+        Generics<?, ?>[] vector1 = gera_vector_inteiro( 1_000_000 );
+        Generics<?, ?>[] vector2 = gera_vector_inteiro( 1_000_000 );
 
+        System.out.println( "Vetor de inteiros" );
+        long startTime = System.currentTimeMillis();
         double mediana = achaMediana( vector1, vector2 );
-        System.out.println("Mediana: "+mediana);
+        long endTime = System.currentTimeMillis();
+        System.out.println("Mediana: " + mediana);
+        System.out.println( "Tempo total de execução: " + ( endTime - startTime ) );
 
-        vector1 = gera_vector_string( 500_000, 32 );
-        vector2 = gera_vector_string( 500_000, 32 );
+        vector1 = gera_vector_string( 1_000_000, 32 );
+        vector2 = gera_vector_string( 1_000_000, 32 );
 
+        System.out.println( "\nVetor de strings" );
+        startTime = System.currentTimeMillis();
         mediana = achaMediana( vector1, vector2 );
+        endTime = System.currentTimeMillis();
 
-        System.out.println("Mediana: "+mediana);
+        System.out.println("Mediana: " + mediana);
+        System.out.println( "Tempo total de execução: " + ( endTime - startTime ) );
+
+        System.out.println("");
+
+        Report.soft_hard_content();
     }
 }

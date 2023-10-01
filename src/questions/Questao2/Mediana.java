@@ -7,10 +7,6 @@ import structs.Generics;
 public class Mediana {
 
     public static double achaMediana( Generics<?, ?>[] vector_1, Generics<?, ?>[] vector_2 ){
-        if( vector_1.length != vector_2.length){
-            System.out.println("ERRO! OS VETORES DEVEM SER DE MESMO TAMANHO");
-            return 1;
-        }
 
         Generics<?, ?>[] Generic_vector = new Generics[ vector_1.length + vector_2.length ];
 
@@ -23,16 +19,30 @@ public class Mediana {
 
         Merge sorter = new Merge();
 
-        final long startTime = System.currentTimeMillis();
-        sorter.sort( Generic_vector );
-        final long endTime = System.currentTimeMillis();
-
-        System.out.println( "Tempo total de execução:" + ( endTime - startTime ) );
-
         int middle = ( Generic_vector.length - 1 ) / 2;
         if ( Generic_vector.length % 2 == 0 ){
-            return ( (double) Generic_vector[middle].getValue() + (double) Generic_vector[middle].getValue() ) / 2 ;
+            if ( Generic_vector[middle].getValue() instanceof String  ){
+                int soma_l = 0, soma_r = 0;
+
+                for ( char c : ((String) Generic_vector[middle].getValue()).toCharArray() ){
+                    soma_l += (int) c;
+                }
+                for ( char c : ((String) Generic_vector[middle + 1].getValue()).toCharArray() ){
+                    soma_r += (int) c;
+                }
+
+                return ( ( double ) soma_l + ( double ) soma_r ) / 2;
+            }
+            return ( (double) Integer.parseInt( Generic_vector[middle].getValue().toString() ) + (double) Integer.parseInt( Generic_vector[middle + 1].getValue().toString() ) ) / 2 ;
         } else {
+            if ( Generic_vector[middle].getValue() instanceof String  ){
+                int soma_l = 0;
+
+                for ( char c : ((String) Generic_vector[middle].getValue()).toCharArray() ){
+                    soma_l += (int) c;
+                }
+                return ( double ) soma_l;
+            }
             return (double) Generic_vector[middle].getValue();
         }
     }
